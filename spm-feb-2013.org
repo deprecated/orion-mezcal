@@ -1,0 +1,2051 @@
+#+STARTUP:   lognotestate
+#+SEQ_TODO: TODO(t!) STARTED(s!) WAITING(w@) | DONE(d) CANCELED(c@)
+#+OPTIONS: H:5 num:nil toc:nil \n:nil @:t ::t |:t ^:{} f:t *:t TeX:t LaTeX:t skip:t p:nil
+
+* New SPM Orion observations: 2013 February
+:PROPERTIES:
+:EXPORT_FILE_NAME: spm-feb-2013
+:END:
+
+** Teresa's reductions
+:LOGBOOK:
+CLOCK: [2013-05-02 Thu 10:05]--[2013-05-02 Thu 10:49] =>  0:44
+:END:
+:PROPERTIES:
+:dir:      ~/Dropbox/SPMFEB13/160213/reducciones
+:END:
+
+*** Teresa's original spreadsheet tables
+
+Apart from splitting up into separate tables, these are unmodified from [[file:coordenadas.xls][coordenadas.xls]]. 
+
+**** LL 2
+| #slit   |  RA(2000) |   DEC(2000) |          RA wrt #2 |         DEC wrt #2 | new name  | scale x | scale y | spectra           | reference star | helio corr |
+|---------+-----------+-------------+--------------------+--------------------+-----------+---------+---------+-------------------+----------------+------------|
+| spm024  |  83.65325 |    -5.37626 |   4.04999999999973 |     7.991999999998 | star2n799 |   0.354 |   0.528 | spm025-ha.fits    | wrt 373 HH505  |     -23.83 |
+
+
+**** Orion S
+:PROPERTIES:
+:ID:       806E4A1D-9ED5-4A4F-81AB-FE37F2412842
+:END:
++ Why does Teresa have 21 slit positions here?
++ I only count 18 different pointings
+
+| #slit   |  RA(2000) |   DEC(2000) |          RA wrt #2 |         DEC wrt #2 | new name  | scale x | scale y | spectra           | reference star | helio corr |
+|---------+-----------+-------------+--------------------+--------------------+-----------+---------+---------+-------------------+----------------+------------|
+| spm048  |  83.80962 |    -5.39818 |    1.5791999999999 |  -3.52800000000073 | star2s353 |    0.35 |   0.522 | spec049-oiii.fits | JW499          |     -23.98 |
+| spm052  |  83.81013 |     -5.3991 |   1.45679999999857 |  -6.84000000000005 | star2s684 |   0.349 |   0.521 | spec053-oiii.fits | JW499          |     -24.03 |
+| spm060  |  83.81044 |    -5.39937 |   1.38239999999882 |  -7.81200000000162 | star2s781 |   0.352 |   0.526 | spec053-oiii.fits | JW499          |     -24.13 |
+| spm046  | 83.809009 |   -5.396029 |   1.72583999999802 |   4.21559999999772 | star2n421 |   0.351 |   0.525 | spec047-oiii.fits | JW499          |     -23.95 |
+| spm050  | 83.809215 |  -5.3965352 |   1.67640000000006 |   2.39328000000008 | star2n239 |   0.351 |   0.524 | spec051-oiii.fits | JW499          |     -23.98 |
+| spm054  | 83.809513 |  -5.3967995 |   1.60487999999987 |   1.44179999999849 | star2n144 |   0.351 |   0.524 | spec055-oiii.fits | JW499          |     -24.03 |
+| spm059  |  83.80941 |  -5.3973552 |   1.62959999999885 | -0.558720000000079 | star2c056 |    0.35 |   0.524 | spec060-oiii.fits | JW499          |     -24.07 |
+| spm063  |  83.80951 |   -5.397564 |   1.60559999999805 |  -1.31040000000091 | star2s131 |   0.351 |   0.525 | spec064-oiii.fits | JW499          |      -24.1 |
+| spm067  | 83.809978 |  -5.3979335 |   1.49327999999855 |  -2.64059999999979 | star2s264 |   0.351 |   0.525 | spec068-oiii.fits | JW499          |     -24.14 |
+| spm071  | 83.810021 | -5.39834425 |   1.48295999999732 |  -4.11930000000105 | star2s412 |   0.351 |   0.525 | spec072-oiii.fits | JW499          |     -24.17 |
+| spm075  | 83.810228 | -5.39874525 |   1.43327999999997 |  -5.56290000000139 | star2s556 |   0.351 |   0.525 | spec076-oiii.fits | JW499          |      -24.2 |
+| spm079  | 83.810262 |  -5.3990587 |   1.42512000000011 |  -6.69132000000197 | star2s669 |   0.351 |   0.525 | spec080-oiii.fits | JW499          |     -24.23 |
+| spm083  | 83.810634 |  -5.3994161 |   1.33584000000042 |   -7.9779600000002 | star2s797 |   0.351 |   0.525 | spec084-oiii.fits | JW499          |     -24.26 |
+| spm087  |   83.8106 |  -5.3997833 |   1.34400000000028 |  -9.29988000000144 | star2s929 |    0.35 |   0.526 | spec088-oiii.fits | JW499          |     -24.28 |
+| spm091  | 83.810557 |  -5.4000922 |    1.3543199999981 |  -10.4119199999992 | star2s104 |   0.349 |   0.526 | spec092-oiii.fits | JW499          |      -24.3 |
+| spm120  | 83.808964 |  -5.4001608 |   1.73663999999803 |  -10.6588800000011 | star2s106 |   0.349 |   0.525 | spec121-oiii.fits | JW499          |     -24.02 |
+| spm124  |  83.80912 |  -5.4003858 |   1.69920000000047 |  -11.4688799999993 | star2s114 |    0.35 |   0.525 | spec125-oiii.fits | JW499          |     -24.06 |
+| spm129  | 83.809115 |  -5.4006513 |   1.70039999999744 |  -12.4246800000002 | star2s124 |    0.35 |   0.525 | spec130-oiii.fits | JW499          |      -24.1 |
+| spm135  | 83.809203 |  -5.3997455 |   1.67927999999961 |  -9.16380000000032 | star2s916 |    0.35 |   0.525 | spec136-oiii.fits | JW499          |     -24.15 |
+| spm139  | 83.809334 |  -5.4011967 |   1.64783999999713 |  -14.3881200000003 | star2s143 |    0.35 |   0.525 | spec140-oiii.fits | JW499          |      -24.2 |
+| spm143  | 83.809792 |   -5.401718 |   1.53791999999839 |  -16.2648000000001 | star2s162 |    0.35 |   0.526 | spec144-oiii.fits | JW499          |     -24.24 |
+
+
+
+**** [O III]
+| lamrest | lam0 | lamscale | d vel |
+|---------+------+----------+-------|
+| 5006.85 | 5002 | 0.033379 |     2 |
+
+
+
+**** Orion W
+| #slit   | RA(2000) | DEC(2000) |
+|---------+----------+-----------|
+| star #2 |  83.6139 | -5.406175 |
+
+
+| #slit   |  RA(2000) |   DEC(2000) |          RA wrt #2 |        DEC wrt #2 | new name  | scale x | scale y | spectra         | reference star | helio corr |
+|---------+-----------+-------------+--------------------+-------------------+-----------+---------+---------+-----------------+----------------+------------|
+| spm029  |   83.6084 |   -5.415455 |   1.31999999999948 | -33.4079999999982 | star2s334 |   0.352 |   0.517 | spec030-ha      | star #2        |     -23.87 |
+| spm033  |  83.61066 |    -5.41652 |  0.777600000001257 | -37.2420000000002 | star2s372 |   0.352 |   0.517 | spec034-ha      | star #2        |     -23.93 |
+| spm149  | 83.623107 |  -5.4239194 |  -2.20968000000084 | -63.8798399999992 | star2s639 |    0.35 |   0.527 | spec150-ha.fits | star #2        |     -24.33 |
+| spm154  | 83.623724 |  -5.4225751 |  -2.35775999999873 | -59.0403600000009 | star2s590 |    0.35 |   0.527 | spec155-ha.fits | star #2        |     -24.38 |
+| spm159  | 83.623817 |  -5.4201143 |  -2.38008000000036 | -50.1814799999988 | star2s502 |   0.349 |   0.527 | spec160-ha.fits | star #2        |     -24.43 |
+| spm165  | 83.614135 |  -5.4408767 | -0.056400000000849 | -124.926119999998 | star2s125 |   0.351 |   0.527 | spec166-ha.fits | star #2        |     -24.48 |
+| spm169  | 83.614586 |  -5.4382203 | -0.164640000000418 |        -115.36308 | star2s115 |    0.35 |   0.527 | spec170-ha.fits | star #2        |     -24.51 |
+| spm226  |   83.6076 |  -5.4294007 |   1.51199999999903 | -83.6125200000008 | star2s836 |    0.35 |   0.528 | spec227-ha.fits | star #2        |     -24.23 |
+| spm232  | 83.615722 |  -5.4320669 |  -0.43728000000101 | -93.2108399999983 | star2s932 |   0.349 |   0.527 | spec233-ha.fits | star #2        |     -24.29 |
+| spm237  | 83.616552 |  -5.4360708 | -0.636479999999438 | -107.624880000001 | star2s107 |    0.35 |   0.527 | spec238-ha.fits | star #2        |     -24.34 |
+
+**** Halpha:
+
+| lamrest | lam0 |    lamscale | d vel |
+|---------+------+-------------+-------|
+| 6562.82 | 6557 | 0.043752133 |     2 |
+
+**** [N II]
+
+| lamrest | lam0 |    lamscale | d vel |
+|---------+------+-------------+-------|
+| 6583.45 | 6578 | 0.043889666 |     2 |
+
+
+
+**** How I got the above tables
+1. Uploaded [[file:coordenadas.xls][coordenadas.xls]] to Google Docs
+2. Somehow, get it to open with /Sheets/, which automatically converts it to native google spreadsheet format
+   + This was obscure and took me a while to figure out
+   + Originally, it was still as  XLS format, which meant there was no =File->Download As->Etc= menu item
+   + I can't remember exactly how I did it in the end
+3. Downloaded CSV file to [[file:teresa-coordinates.csv][teresa-coordinates.csv]]
+4. Pasted contents into the org file
+5. Selected it and used =org-table-convert-region= to convert it to an org-mode table
+6. Further adjustments by hand
+
+*** STARTED Organizing by field
+:LOGBOOK:
+- State "STARTED"    from ""           [2013-05-02 Thu 10:49]
+:END:
+
+**** Orion S
+:LOGBOOK:
+CLOCK: [2013-05-02 Thu 10:49]--[2013-05-02 Thu 13:21] =>  2:32
+:END:
+:PROPERTIES:
+:APPT_WARNTIME: 1
+:dir:      OrionS
+:END:
+These are just the image/slits, originally copied from the tables [[id:C5DA60EC-52DA-433B-9534-E5FD1E958D9B][here]] and [[id:C5F98384-805C-487D-A745-C6B9BE309927][here]]
+
++ We go from 12 0.354 = 4.248" N to 46 0.354 = 16.284" S of 159-350, with nominal spacing of 4 0.354 = 1.416"
+
+| FILENAME    |   DATE-OBS |       UT | FILTER   | GRATING | EXPTIME | APERTURE  |  CBIN |  RBIN |           RA |          DEC | AIRMASS | Offset   |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm046.fits | 2013-02-17 | 03:38:58 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:52.600 | -05:24:25.00 |    1.24 | N 12 pix |
+| spm050.fits | 2013-02-17 | 03:59:03 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:53.000 | -05:24:26.00 |    1.25 | N 8 pix  |
+| spm054.fits | 2013-02-17 | 04:22:49 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:53.500 | -05:24:25.00 |    1.28 | N 4 pix  |
+| spm059.fits | 2013-02-17 | 04:44:45 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:53.900 | -05:24:27.00 |    1.32 | N 0 pix  |
+| spm063.fits | 2013-02-17 | 05:05:40 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:54.100 | -05:24:28.00 |    1.37 | S 4 pix  |
+| spm067.fits | 2013-02-17 | 05:25:27 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:54.400 | -05:24:27.00 |    1.44 | S 8 pix  |
+| spm071.fits | 2013-02-17 | 05:48:53 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:54.400 | -05:24:25.00 |    1.54 | S 12 pix |
+| spm075.fits | 2013-02-17 | 06:08:08 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:54.400 | -05:24:24.00 |    1.65 | S 15 pix |
+| spm079.fits | 2013-02-17 | 06:27:31 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:54.800 | -05:24:22.00 |    1.80 | S 19 pix |
+| spm083.fits | 2013-02-17 | 06:46:47 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:55.100 | -05:24:18.00 |    1.98 | S 22 pix |
+| spm135.fits | 2013-02-18 | 03:45:31 | SII 100A |       4 |  100000 | 70 micron | 00003 | 00002 | 05:35:59.100 | -05:23:54.00 |    1.25 | S 25 pix |
+| spm087.fits | 2013-02-17 | 07:05:41 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:55.400 | -05:24:12.00 |    2.23 | S 26 pix |
+| spm091.fits | 2013-02-17 | 07:25:12 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:56.500 | -05:23:47.00 |    2.58 | S 29 pix |
+| spm120.fits | 2013-02-18 | 02:36:39 | SII 100A |       4 |  100000 | 70 micron | 00003 | 00002 | 05:35:57.100 | -05:23:56.00 |    1.27 | S 30 pix |
+| spm124.fits | 2013-02-18 | 02:55:43 | SII 100A |       4 |  100000 | 70 micron | 00003 | 00002 | 05:35:57.900 | -05:23:58.00 |    1.25 | S 31 pix |
+| spm129.fits | 2013-02-18 | 03:20:19 | SII 100A |       4 |  100000 | 70 micron | 00003 | 00002 | 05:35:58.300 | -05:23:58.00 |    1.24 | S 34 pix |
+| spm139.fits | 2013-02-18 | 04:15:47 | SII 100A |       4 |  100000 | 70 micron | 00003 | 00002 | 05:35:59.700 | -05:23:57.00 |    1.28 | S 41 pix |
+| spm143.fits | 2013-02-18 | 04:35:05 | SII 100A |       4 |  100000 | 70 micron | 00003 | 00002 | 05:35:59.800 | -05:23:58.00 |    1.31 | S 46 pix |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+
+***** Data from Teresa's [[id:806E4A1D-9ED5-4A4F-81AB-FE37F2412842][table]]
++ I have removed the first 3 rows that seemed to not belong
++ Then I reverse-sorted on the DEC column
+  + Which only affected =spm135=
+
+#+name: orion-s-table
+| #slit  |  RA(2000) | RA(HMS)       |   DEC(2000) |        RA wrt #2 | RA (arcsec) | DEC wrt #2 | Dec spacing | Use? | scale x | scale y |      helio corr | Res | Bright | Scale |
+|--------+-----------+---------------+-------------+------------------+-------------+------------+-------------+------+---------+---------+-----------------+-----+--------+-------|
+| spm046 | 83.809009 | 5@ 35' 14.16" |   -5.396029 | 1.72583999999802 |       25.77 |       4.22 |      #ERROR |    1 |   0.351 |   0.525 |          -23.95 |   1 |    980 |     1 |
+| spm050 | 83.809215 | 5@ 35' 14.21" |  -5.3965352 | 1.67640000000006 |       25.03 |       2.39 |        1.83 |    1 |   0.351 |   0.524 |          -23.98 |   1 |    980 |     1 |
+| spm054 | 83.809513 | 5@ 35' 14.28" |  -5.3967995 | 1.60487999999987 |       23.97 |       1.44 |        0.95 |    1 |   0.351 |   0.524 |          -24.03 |   1 |    980 |     1 |
+| spm059 |  83.80941 | 5@ 35' 14.26" |  -5.3973552 | 1.62959999999885 |       24.34 |      -0.56 |          2. |    1 |    0.35 |   0.524 |          -24.07 |   1 |    980 |     1 |
+| spm063 |  83.80951 | 5@ 35' 14.28" |   -5.397564 | 1.60559999999805 |       23.98 |      -1.31 |        0.75 |    1 |   0.351 |   0.525 |           -24.1 |   1 |    980 |     1 |
+| spm067 | 83.809978 | 5@ 35' 14.39" |  -5.3979335 | 1.49327999999855 |       22.30 |      -2.64 |        1.33 |    1 |   0.351 |   0.525 |          -24.14 |   1 |    975 |  0.99 |
+| spm071 | 83.810021 | 5@ 35' 14.41" | -5.39834425 | 1.48295999999732 |       22.15 |      -4.12 |        1.48 |    1 |   0.351 |   0.525 |          -24.17 |   1 |    975 |  0.99 |
+| spm075 | 83.810228 | 5@ 35' 14.45" | -5.39874525 | 1.43327999999997 |       21.40 |      -5.56 |        1.44 |    1 |   0.351 |   0.525 |           -24.2 |   1 |    970 |  0.99 |
+| spm079 | 83.810262 | 5@ 35' 14.46" |  -5.3990587 | 1.42512000000011 |       21.28 |      -6.69 |        1.13 |    1 |   0.351 |   0.525 |          -24.23 |   1 |    960 |  0.98 |
+| spm083 | 83.810634 | 5@ 35' 14.55" |  -5.3994161 | 1.33584000000042 |       19.95 |      -7.98 |        1.29 |    1 |   0.351 |   0.525 |          -24.26 |   1 |    940 |  0.96 |
+| spm135 | 83.809203 | 5@ 35' 14.21" |  -5.3997455 | 1.67927999999961 |       25.08 |      -9.16 |        1.18 |    1 |    0.35 |   0.525 |          -24.15 |   1 |    980 |     1 |
+| spm087 |   83.8106 | 5@ 35' 14.54" |  -5.3997833 | 1.34400000000028 |       20.07 |      -9.30 |        0.14 |    0 |    0.35 |   0.526 |          -24.28 |   2 |    900 |  0.92 |
+| spm091 | 83.810557 | 5@ 35' 14.53" |  -5.4000922 |  1.3543199999981 |       20.22 |     -10.41 |        1.11 |    0 |   0.349 |   0.526 |           -24.3 |   0 |    880 |  0.90 |
+| spm120 | 83.808964 | 5@ 35' 14.15" |  -5.4001608 | 1.73663999999803 |       25.93 |     -10.66 |        0.25 |    1 |   0.349 |   0.525 |          -24.02 |   1 |    980 |     1 |
+| spm124 |  83.80912 | 5@ 35' 14.19" |  -5.4003858 | 1.69920000000047 |       25.37 |     -11.47 |        0.81 |    0 |    0.35 |   0.525 |          -24.06 |   0 |    975 |  0.99 |
+| spm129 | 83.809115 | 5@ 35' 14.19" |  -5.4006513 | 1.70039999999744 |       25.39 |     -12.42 |        0.95 |    1 |    0.35 |   0.525 |           -24.1 |   1 |    980 |     1 |
+| spm139 | 83.809334 | 5@ 35' 14.24" |  -5.4011967 | 1.64783999999713 |       24.61 |     -14.39 |        1.97 |    1 |    0.35 |   0.525 |           -24.2 |   1 |    980 |     1 |
+| spm143 | 83.809792 | 5@ 35' 14.35" |   -5.401718 | 1.53791999999839 |       22.97 |     -16.26 |        1.87 |    1 |    0.35 |   0.526 |          -24.24 |   1 |    975 |  0.99 |
+|--------+-----------+---------------+-------------+------------------+-------------+------------+-------------+------+---------+---------+-----------------+-----+--------+-------|
+|        |           | 0@ 0' 0"      |             |                  |           0 |          0 |        1.37 |      |         |         | -24.14 +/- 0.02 |     |        |     0 |
+#+TBLFM: $3=hms($-1/15);f2::$6=$5 15 cos($4) ;f2::$7=$7;f2::$8=@-1$-1 - $-1::$12=vmeane(@I..@II);f2::$15=$-1/980;f2::@20$8=(@I$-1 - @19$-1) / vsum(@I$+1..@II$+1) ;f2
+
++ The =Res= column is a subjective assessment of the angular resolution:
+  + =1= : Reasonably good resolution, FWHM ~4 pix = 2.1 arcsec
+    + In many cases, the seeing is better than this but the focus is not perfect
+  + =2= : best resolution, FWHM ~ 3 pixels = 1.6 arcsec
+  + =0= : poor resolution,  FWHM ~ 5 pixels = 2.6 arcsec
++ The =Bright= column is a measure of the average brightness in a smooth part of the nebula
+  + This starts a slight decline from air mass > 1.4
+  + Steep decline after air mass > 2
++ The =Scale= column is just a normalized version of =Bright=
+  + It is what we should divide the spectra by to give them all the same flux calibration
+    + Assuming that transparency is same at 6716 as at 5007, which is probably not quite true
+    + We could take a non-linear power of =Bright= maybe
+****** [2/2] Decision time
++ [X] Best to drop =spm087= and =spm092= positions
+  + Air mass is too high so blurred and < 90% transparency
+  + Positions are close to =spm135= and =spm120= respectively so no great loss
++ [X] Not clear whether or not it is best to keep =spm124=
+  + It is a bit blurred
+  + Transparency is fine
+  + If we removed it there would be a 1.76" gap, compared with an average of 1.37
+    + The largest gap is 2.0 between =054= and =059=
+  + [X] There is a bit of a change in positions of things, but we will ditch it
+
+***** Inspect the WCS header info in the image-slit files
+#+BEGIN_SRC python :var table=orion-s-table :results output :colnames yes
+from astropy.io import fits
+for row in table:
+    fn = row[0]
+    if fn:
+        hdu, = fits.open(fn + "_ardec.fits")
+        print [hdu.header[k] for k in "CRPIX1", "CRVAL1", "CD1_1", "CRPIX2", "CRVAL2", "CD2_2"]
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+[380.224530127555, 83.8190003555078, 0.000145855801510661, 397.248906556536, -5.38958787047402, -9.7435631378862e-05]
+[379.998934566305, 83.8191558995574, 0.000145544224548324, 391.02113208017, -5.38947675480316, -9.7428875649937e-05]
+[376.89232201813, 83.8190003566583, 0.000145561433272255, 392.037797653257, -5.38986675580824, -9.7372592174605e-05]
+[377.537877212563, 83.8190003566583, 0.000145583805730739, 386.463351922357, -5.38986675580824, -9.7349110490401e-05]
+[374.391104511387, 83.8186559063992, 0.000145808982440041, 382.805570321499, -5.38972229994915, -9.7391933478711e-05]
+[371.154437481524, 83.8186559063992, 0.0001458325625718, 379.036680344989, -5.38972229994915, -9.7425046857071e-05]
+[370.796659647252, 83.8186559063992, 0.000145836684470985, 375.385569355206, -5.38972229994915, -9.7418954205977e-05]
+[369.382215388607, 83.8186559063992, 0.000145824384382773, 371.272236278965, -5.38972229994915, -9.7402855249848e-05]
+[369.096659487086, 83.8186559063992, 0.000145847482758853, 368.646681044945, -5.38972229994915, -9.7420256135362e-05]
+[366.535548175295, 83.8186559063992, 0.000145860579491016, 364.558903085809, -5.38972229994915, -9.7546618959499e-05]
+[357.840842491007, 83.8159114222173, 0.000145929846138673, 396.575566488393, -5.3930323457006, -9.7148678253953e-05]
+[347.259760450161, 83.8157558727559, 0.000145989116821009, 399.101121253138, -5.39342234584618, -9.7095633487324e-05]
+[347.47309303412, 83.8157558727559, 0.000146044989833133, 396.457788253088, -5.39342234584618, -9.7052946195237e-05]
+[358.42531694164, 83.8157558727559, 0.000145920497885594, 399.632233394521, -5.39342234584618, -9.7063292007081e-05]
+[358.363064808401, 83.8159114222173, 0.000145922673748196, 389.620010933288, -5.3930323457006, -9.7138019765305e-05]
+[358.400842861022, 83.8159114222173, 0.000145902345988634, 387.267789056042, -5.3930323457006, -9.7164615005014e-05]
+[356.881953507284, 83.8159114222173, 0.000145936656376835, 380.513343826392, -5.3930323457006, -9.7157347812423e-05]
+[357.266969218399, 83.8164128308503, 0.00014598953028151, 394.877511844507, -5.3949488867944, -9.7149284271435e-05]
+#+end_example
+
+View all the image-slit files in ds9
+#+BEGIN_SRC sh
+xpaset -p ds9 cd $PWD
+for f in *_ardec.fits; do
+    xpaset -p ds9 frame new
+    xpaset -p ds9 fits $f
+done
+xpaset -p ds9 match frame wcs
+#+END_SRC
+
+#+RESULTS:
+
+****** Test of variables
+#+CONSTANTS: x=2 y=5
+#+name: trivial
+| X | Y |
+|---+---|
+| 2 | 5 |
+#+TBLFM: $1=$x::$2=$y
+
+#+name: trivial2
+| X |  Y |
+|---+----|
+| 4 | 25 |
+#+TBLFM: $1=$x**2::$2=$y**2
+
+#+name: func1
+#+BEGIN_SRC python :var tab=trivial :colnames nil
+return tab[0][0] + tab[0][1]
+#+END_SRC
+
+#+RESULTS: func1
+: 7
+
+#+name: func2 
+#+BEGIN_SRC python :var result=func1(tab=trivial2)
+return result + 1
+#+END_SRC
+
+#+RESULTS: func2
+
+
+#+NAME: echo-table-again
+#+BEGIN_SRC python :var tab=trivial :colnames nil
+  return [[str(val) + '*' for val in row] for row in tab]
+#+END_SRC
+
+#+RESULTS: echo-table-again
+| X  | Y  |
+|----+----|
+| 2* | 5* |
+
+#+call: func1[:colnames yes](tab=trivial)
+
+#+RESULTS: func1[:colnames yes](tab=trivial)
+: XY
+
+#+RESULTS: func1[:colnames no](tab=trivial)
+: XY
+
+#+RESULTS: func1[:colnames nil](tab=trivial)
+: XY
+
+#+RESULTS: func1(tab=trivial)
+: XY
+
+
+***** Removing the ghost line
+:LOGBOOK:
+CLOCK: [2013-06-08 Sat 12:33]--[2013-06-08 Sat 16:14] =>  3:41
+:END:
++ There is a ghost [O III] line, that is shifted to the blue by a few hundred km/s
++ It would be good to remove this
++ Separation in pixels is 165 - 32 = 133
++ Intensity ratio is 124.236/10959 = 0.011336
++ Turns out I had to tweak those numbers
++ Only remove from lower part of image to avoid wrapping problems
+#+BEGIN_SRC python :results output verbatim
+  import numpy as np
+  import astropy.io.fits as fits
+  specids = ["047", "051", "055", "060", "064", "068", "072", "076", "080",
+             "084", "136", "088", "092", "121", "125", "130", "140", "144"]
+  ISHIFT = 133
+  FACTOR = 0.01
+  for specid in specids:
+      hdu, = fits.open("spec{}-oiii.fits".format(specid))
+      ghostdata = FACTOR*np.roll(hdu.data, -ISHIFT, axis=0)
+      hdu.data[0:100, :] -= ghostdata[0:100, :]
+      hdu.writeto("spec{}-oiii-dg.fits".format(specid), clobber=True)
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+WARNING: Overwriting existing file 'spec047-oiii-dg.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec051-oiii-dg.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec055-oiii-dg.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec060-oiii-dg.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec064-oiii-dg.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec068-oiii-dg.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec072-oiii-dg.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec076-oiii-dg.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec080-oiii-dg.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec084-oiii-dg.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec136-oiii-dg.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec088-oiii-dg.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec092-oiii-dg.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec121-oiii-dg.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec125-oiii-dg.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec130-oiii-dg.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec140-oiii-dg.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec144-oiii-dg.fits'. [astropy.io.fits.hdu.hdulist]
+#+end_example
+
+Look at the results
+#+BEGIN_SRC sh
+xpaset -p ds9 frame delete all
+for f in spec*-oiii-dg.fits; do
+    xpaset -p ds9 frame new
+    xpaset -p ds9 fits $PWD/$f
+    xpaset -p ds9 scale limits 0 100
+    xpaset -p ds9 cmap invert yes
+done
+#+END_SRC
+
+#+RESULTS:
+
++ There is still a faint residual
+  + mainly due to the inadequacy of a strictly integer shift
+  + but this varies from slit to slit
+
+***** Removing the continuum and adding WCS info
++ Now that we have laregly eliminated the ghost, we can use the bottom and top borders to fit the continuum.
+  + Assume it is constant
+
+#+BEGIN_SRC python :results output verbatim
+  import numpy as np
+  import astropy.io.fits as fits
+  specids = ["047", "051", "055", "060", "064", "068", "072", "076", "080",
+             "084", "136", "088", "092", "121", "125", "130", "140", "144"]
+  for specid, imid in specids:
+      hdu, = fits.open("spec{}-oiii-dg.fits".format(specid))
+      low = hdu.data[:15, :].mean(axis=0)
+      high = hdu.data[-15:, :].mean(axis=0)
+      average = 0.5*(low + high)
+      hdu.data -= average[None, :]
+      hdu.writeto("spec{}-oiii-nc.fits".format(specid), clobber=True)
+  
+  
+  
+  
+#+END_SRC
+
+#+RESULTS:
+#+begin_example
+WARNING: Overwriting existing file 'spec047-oiii-nc.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec051-oiii-nc.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec055-oiii-nc.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec060-oiii-nc.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec064-oiii-nc.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec068-oiii-nc.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec072-oiii-nc.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec076-oiii-nc.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec080-oiii-nc.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec084-oiii-nc.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec136-oiii-nc.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec088-oiii-nc.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec092-oiii-nc.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec121-oiii-nc.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec125-oiii-nc.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec130-oiii-nc.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec140-oiii-nc.fits'. [astropy.io.fits.hdu.hdulist]
+WARNING: Overwriting existing file 'spec144-oiii-nc.fits'. [astropy.io.fits.hdu.hdulist]
+#+end_example
+
+#+BEGIN_SRC sh
+xpaset -p ds9 cd $PWD
+xpaset -p ds9 frame delete all
+for f in spec*-oiii-nc.fits; do
+    xpaset -p ds9 frame new
+    xpaset -p ds9 fits $PWD/$f
+    xpaset -p ds9 scale limits -5 50
+    xpaset -p ds9 cmap invert yes
+done
+#+END_SRC
+
+#+BEGIN_SRC sh
+xpaset -p ds9 cd $PWD
+xpaset -p ds9 frame delete all
+xpaset -p ds9 frame new
+xpaset -p ds9 fits spm063_ardec.fits
+xpaset -p ds9 pan to 83.807 -5.4 wcs
+xpaset -p ds9 frame new
+xpaset -p ds9 fits spm067_ardec.fits
+xpaset -p ds9 pan to 83.807 -5.4 wcs
+xpaset -p ds9 frame new
+xpaset -p ds9 fits spec064-oiii-dg.fits
+xpaset -p ds9 pan to 83.807 5007.5 wcs
+xpaset -p ds9 frame new
+xpaset -p ds9 fits spec068-oiii-dg.fits
+xpaset -p ds9 pan to 83.807 5007.5 wcs
+#+END_SRC
+#+RESULTS:
+
+
+***** Generating a rough first datacube with WCS info
+
++ Miss out slit 092 since it is fainter than the others (high air mass) and is very close to 121
++ It turns out that Tere has already aligned the slits in RA
+  + I just need to specify
+    + the plate scale (=CDELT1 = 0.35/3600 = 9.72222222222e-5=),
+    + the RA of 159-350 (=CRVAL1 = 83.8164166667=),
+    + and its pixel (=CRPIX1 = 289=)
+  + /Details of calculations for the RA WCS info/: 
+    + Coords of th1C =[RA2000, Dec2000] = [05@ 35' 16.463,  -05@ 23' 23.18] = [83.8185958334, -5.38977222222]=
+    + Relative position of reference star (JW499, 159-350) in arcsec: =(-7.5, 26.6)= with th1C being north and to the east
+      + That is from  [[id:AAF652F6-09D8-4005-A031-BA524882D9EB][orion.org]]
+      + Therefore =[RA2000, Dec2000] = [83.8185958334, -5.38977222222] + [-7.5, -26.6]/3600 = [83.8165125001, -5.39716111111]=
+      + Check by converting back to HMS: =[5@ 35' 15.963", -5@ 23' 49.78"]=.
+        + Hmm, not quite accurate enough. 
+      + O'Dell & Wong (1996) have =[5@ 35' 15.94", -5@ 23' 50.04"] = [83.8164166667, -5.39723333333]= and we will go with that. 
++ In declinations, we use the average separations calculated above
+  + =CDELT2 = 1.37/3600 = 3.80555555556e-4=
+  + =CRPIX2 = 1=
+  + =CRVAL2 = -5.39723333333 - 16.26/3600 = -5.40175=
++ In wavelength, we can switch to a heliocentric velocity scale.
+  + u = c (\lambda - \lambda_{0})/\lambda_{0} + HC
+    + \lambda_{0} = 5006.85
+    + Average HC = -24
+  + =CDELT3 = 2.99792458e10 0.033379 / 5006.85 1.0e5 = 2.00 km/s=
+  + =CRVAL3 = (2.99792458e10 (5002 - 5006.85) / 5006.85 1.0e5) - 24 = -314.40 km/s=
+  + =CRPIX3 = 1=
+
+#+BEGIN_SRC python :tangle makecube.py :results output verbatim
+  import numpy as np
+  import astropy.io.fits as fits
+  specids = ["047", "051", "055", "060", "064", "068", "072", "076", "080",
+             "084", "136", "121", "130", "140", "144"]
+  correct = {"088": 0.9, "084": 0.9}
+  binv = 2                       # Rebin to 2 pixels = 4 km/s
+  nx, ny, nv = 625, len(specids), 300/binv
+  cube = np.empty((nv, ny, nx))
+  cont = np.empty((ny, nx))
+  for j, specid in enumerate(specids):
+      hdu, = fits.open("spec{}-oiii-nc.fits".format(specid))
+      low = hdu.data[:15, :].mean(axis=0)
+      high = hdu.data[-15:, :].mean(axis=0)
+      average = 0.5*(low + high)
+      cont[j, :] = average
+      hdu.data -= average[None, :]
+      cube[:, j, :] = hdu.data.reshape((nv, binv, nx)).sum(axis=1)
+      if specid in correct:
+          cube[:, j, :] /= correct[specid]
+  hdr = fits.Header()
+  hdr.update(CD1_1=9.72222222222e-5, CRVAL1=83.8164166667, CRPIX1=289.0, CTYPE1="RA---TAN",
+             CD2_2=3.80555555556e-4, CRPIX2=1.0, CRVAL2=-5.40175, CTYPE2="DEC--TAN",
+             CD3_3=2.0*binv, CRPIX3=1.0, CRVAL3=-314.4, CTYPE3="LINEAR")
+  fits.PrimaryHDU(cube[:, ::-1, :], hdr).writeto("rough-cube.fits", clobber=True)
+  fits.PrimaryHDU(cube[:, ::-1, :].sum(axis=0), hdr).writeto("rough-map.fits", clobber=True)
+  fits.PrimaryHDU(cont[::-1, :], hdr).writeto("cont-map.fits", clobber=True)
+#+END_SRC
+
+#+RESULTS:
+: WARNING: Overwriting existing file 'rough-cube.fits'. [astropy.io.fits.hdu.hdulist]
+: WARNING: Overwriting existing file 'rough-map.fits'. [astropy.io.fits.hdu.hdulist]
+: WARNING: Overwriting existing file 'cont-map.fits'. [astropy.io.fits.hdu.hdulist]
+
++ I have fixed the worst issues due to overall brightness changes (slits 088 and 084)
++ The remaining issues are due to wavelength calibration variations: particularly slit 130
+****** Load the cube in ds9
+#+BEGIN_SRC sh :results silent
+xpaset -p ds9 cd $PWD
+xpaset -p ds9 frame new
+xpaset -p ds9 fits rough-cube.fits
+xpaset -p ds9 zoom to 1.0 3.91428571429
+xpaset -p ds9 scale minmax
+#+END_SRC
+
+****** Load the velocity-integrated map in ds9
+#+BEGIN_SRC sh :results silent
+xpaset -p ds9 cd $PWD
+xpaset -p ds9 frame new
+xpaset -p ds9 fits rough-map.fits
+xpaset -p ds9 zoom to 1.0 3.91428571429
+xpaset -p ds9 scale minmax
+#+END_SRC
+
+#+BEGIN_SRC sh :results silent
+xpaset -p ds9 cd $PWD
+xpaset -p ds9 frame new
+xpaset -p ds9 fits cont-map.fits
+xpaset -p ds9 zoom to 1.0 3.91428571429
+xpaset -p ds9 scale minmax
+#+END_SRC
+
+****** Load the DOH datacube for comparison
++ First make a copy of the DOH cube, with WCS info in the header, as per the [[file:~/Work/BobKPNO/2004/README][README]]
+  + [187, 314] is th1c, which is 5:35:16.44 -5:23:22.96
+    + 15 deg(5@ 35' 16.44) = 83.8185 deg
+    + deg(-5@ 23' 22.96) = -5.38971111111 deg
+    + Plate scale = 0.534 arcsec = 1.48333333333e-4 deg
+
+#+BEGIN_SRC python
+  import astropy.io.fits as fits
+  hdu, = fits.open("/Users/will/Work/BobKPNO/2004/vcube.oiii.fits")
+  hdu.header.update(CD1_1=-1.48333333333e-4, CRVAL1=83.8185, CRPIX1=187.0, CTYPE1="RA---TAN",
+                    CD2_2=1.48333333333e-4, CRPIX2=314.0, CRVAL2=-5.38971111111, CTYPE2="DEC--TAN")
+  hdu.writeto("DOH-oiii-cube.fits", clobber=True)
+
+#+END_SRC
+
+#+RESULTS:
+: None
+
+
+#+BEGIN_SRC sh :results silent
+xpaset -p ds9 frame new
+xpaset -p ds9 fits DOH-oiii-cube.fits
+xpaset -p ds9 scale minmax
+#+END_SRC
+
+
+**** Western Shocks
+
+*** Looking at the image/slit combos
+**** Display all the ra-dec images in the =160213/reducciones= folder
+#+BEGIN_SRC sh
+for f in *ardec.fits; do xpaset -p ds9 frame new ; xpaset -p ds9 file $f; done
+#+END_SRC
+Note that these are not just one night. 
+#+RESULTS:
+
+
+** Original spectra, organized by night
+*** Display all Image/slits for Western shocks
+   :PROPERTIES:
+   :dir:      ~/Dropbox/SPMFEB13/160213
+   :END:
+
+#+BEGIN_SRC sh
+  for i in 149 154 159 165 169 226 232 237; do
+     xpaset -p ds9 frame new
+     xpaset -p ds9 file spm$i.fits
+     xpaset -p ds9 zoom to 1.0 0.666667
+     xpaset -p ds9 rotate to 180
+  done
+#+END_SRC
+
+#+RESULTS:
+
+Ones from first night
+#+BEGIN_SRC sh
+  for i in 029 033; do
+     xpaset -p ds9 frame new
+     xpaset -p ds9 file ../150213/spm$i.fits
+     xpaset -p ds9 zoom to 1.0 0.666667
+     xpaset -p ds9 rotate to 180
+  done
+  
+#+END_SRC
+
+#+RESULTS:
+
+*** Night 1 : Western slits
+
++ Offsets are wrt 
+  + IX Ori (LL2)
+  + Unidentified star
+
+| FILENAME    |   DATE-OBS |       UT | FILTER | GRATING | EXPTIME | APERTURE   |  CBIN |  RBIN |           RA |          DEC | AIRMASS | Note       | Offset      |
+|-------------+------------+----------+--------+---------+---------+------------+-------+-------+--------------+--------------+---------+------------+-------------|
+| spm024.fits | 2013-02-16 | 03:53:11 | Ha 90A |      -4 |  100000 | 70 micron  | 00003 | 00002 | 05:35:07.600 | -05:21:27.00 |    1.25 | Image/slit | IX N 19 pix |
+| spm025.fits | 2013-02-16 | 03:53:41 | Ha 90A |      -4 |  450000 | 70 micron  | 00003 | 00002 | 05:35:07.500 | -05:21:27.00 |    1.25 | Spec       |             |
+| spm026.fits | 2013-02-16 | 04:06:56 | Ha 90A |      -4 |  200000 | 70 micron  | 00003 | 00002 | 05:35:07.800 | -05:21:26.00 |    1.26 | Lamp       |             |
+|-------------+------------+----------+--------+---------+---------+------------+-------+-------+--------------+--------------+---------+------------+-------------|
+| spm029.fits | 2013-02-16 | 04:12:02 | Ha 90A |      -4 |  100000 | 70 micron  | 00003 | 00002 | 05:34:57.000 | -05:23:45.00 |    1.26 | Image slit | N  5 pix    |
+| spm030.fits | 2013-02-16 | 04:14:59 | Ha 90A |      -4 |  600000 | 150 micron | 00003 | 00002 | 05:34:57.100 | -05:23:45.00 |    1.27 | Spec       |             |
+| spm031.fits | 2013-02-16 | 04:25:23 | Ha 90A |      -4 |  600000 | 150 micron | 00003 | 00002 | 05:34:57.500 | -05:23:45.00 |    1.28 | Spec       |             |
+| spm032.fits | 2013-02-16 | 04:40:41 | Ha 90A |      -4 |  200000 | 150 micron | 00003 | 00002 | 05:34:57.900 | -05:23:46.00 |    1.30 | Lamp       |             |
+|-------------+------------+----------+--------+---------+---------+------------+-------+-------+--------------+--------------+---------+------------+-------------|
+| spm033.fits | 2013-02-16 | 04:43:49 | Ha 90A |      -4 |  100000 | 150 micron | 00003 | 00002 | 05:34:57.900 | -05:23:46.00 |    1.31 |            |             |
+| spm034.fits | 2013-02-16 | 04:44:23 | Ha 90A |      -5 |  600000 | 150 micron | 00003 | 00002 | 05:34:57.900 | -05:23:47.00 |    1.31 |            |             |
+| spm035.fits | 2013-02-16 | 04:54:35 | Ha 90A |      -5 |  600000 | 150 micron | 00003 | 00002 | 05:34:58.200 | -05:23:46.00 |    1.34 |            |             |
+| spm036.fits | 2013-02-16 | 05:09:41 | Ha 90A |      -5 |  200000 | 150 micron | 00003 | 00002 | 05:34:58.400 | -05:23:46.00 |    1.38 |            |             |
+
+*** Night 2 : Orion S
+:PROPERTIES:
+:ID:       C5DA60EC-52DA-433B-9534-E5FD1E958D9B
+:END:
+
++ Offsets are wrt 159-350 
+
+| FILENAME    |   DATE-OBS |       UT | FILTER   | GRATING | EXPTIME | APERTURE  |  CBIN |  RBIN |           RA |          DEC | AIRMASS | Offset   |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm001.fits | 2013-02-17 | 02:26:24 | Ha 90A   |       1 |   00000 | Clear     | 00003 | 00002 | 05:35:46.500 | -05:51:43.00 |    1.30 |          |
+| spm002.fits | 2013-02-17 | 02:26:30 | Ha 90A   |       1 |   00000 | Clear     | 00003 | 00002 | 05:36:53.100 | -05:51:43.00 |    1.30 |          |
+| spm003.fits | 2013-02-17 | 02:26:36 | Ha 90A   |       1 |   00000 | Clear     | 00003 | 00002 | 05:36:53.100 | -05:51:43.00 |    1.30 |          |
+| spm004.fits | 2013-02-17 | 02:26:42 | Ha 90A   |       1 |   00000 | Clear     | 00003 | 00002 | 05:36:53.100 | -05:51:43.00 |    1.30 |          |
+| spm005.fits | 2013-02-17 | 02:26:48 | Ha 90A   |       1 |   00000 | Clear     | 00003 | 00002 | 05:36:53.100 | -05:51:43.00 |    1.30 |          |
+| spm006.fits | 2013-02-17 | 02:27:20 | Ha 90A   |       1 |   00000 | Clear     | 00003 | 00002 | 05:18:18.300 | -05:04:18.00 |    1.26 |          |
+| spm007.fits | 2013-02-17 | 02:27:26 | Ha 90A   |       1 |   00000 | Clear     | 00003 | 00002 | 05:10:15.600 | -05:04:18.00 |    1.25 |          |
+| spm008.fits | 2013-02-17 | 02:27:32 | Ha 90A   |       1 |   00000 | Clear     | 00003 | 00002 | 05:08:32.100 | -05:04:18.00 |    1.25 |          |
+| spm009.fits | 2013-02-17 | 02:27:38 | Ha 90A   |       1 |   00000 | Clear     | 00003 | 00002 | 05:08:32.100 | -05:04:18.00 |    1.25 |          |
+| spm010.fits | 2013-02-17 | 02:27:44 | Ha 90A   |       1 |   00000 | Clear     | 00003 | 00002 | 05:08:32.200 | -05:04:18.00 |    1.25 |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm046.fits | 2013-02-17 | 03:38:58 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:52.600 | -05:24:25.00 |    1.24 | N 12 pix |
+| spm047.fits | 2013-02-17 | 03:39:53 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:52.700 | -05:24:25.00 |    1.25 |          |
+| spm048.fits | 2013-02-17 | 03:45:48 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:52.700 | -05:24:25.00 |    1.25 |          |
+| spm049.fits | 2013-02-17 | 03:55:31 | OIII 60A |       1 |  200000 | 70 micron | 00003 | 00002 | 05:35:53.000 | -05:24:24.00 |    1.25 |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm050.fits | 2013-02-17 | 03:59:03 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:53.000 | -05:24:26.00 |    1.25 | N 8 pix  |
+| spm051.fits | 2013-02-17 | 03:59:42 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:53.000 | -05:24:26.00 |    1.25 |          |
+| spm052.fits | 2013-02-17 | 04:05:14 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:53.300 | -05:24:25.00 |    1.26 |          |
+| spm053.fits | 2013-02-17 | 04:20:02 | OIII 60A |       1 |  200000 | 70 micron | 00003 | 00002 | 05:35:53.600 | -05:24:24.00 |    1.28 |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm054.fits | 2013-02-17 | 04:22:49 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:53.500 | -05:24:25.00 |    1.28 | N 4 pix  |
+| spm055.fits | 2013-02-17 | 04:24:15 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:53.600 | -05:24:25.00 |    1.28 |          |
+| spm056.fits | 2013-02-17 | 04:29:29 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:53.700 | -05:24:25.00 |    1.29 |          |
+| spm057.fits | 2013-02-17 | 04:39:00 | OIII 60A |       1 |  200000 | 70 micron | 00003 | 00002 | 05:35:53.700 | -05:24:25.00 |    1.31 |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm059.fits | 2013-02-17 | 04:44:45 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:53.900 | -05:24:27.00 |    1.32 | N 0 pix  |
+| spm060.fits | 2013-02-17 | 04:45:28 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:53.800 | -05:24:27.00 |    1.32 |          |
+| spm061.fits | 2013-02-17 | 04:50:56 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:53.900 | -05:24:27.00 |    1.33 |          |
+| spm062.fits | 2013-02-17 | 05:00:20 | OIII 60A |       1 |  200000 | 70 micron | 00003 | 00002 | 05:35:54.100 | -05:24:27.00 |    1.36 |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm063.fits | 2013-02-17 | 05:05:40 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:54.100 | -05:24:28.00 |    1.37 | S 4 pix  |
+| spm064.fits | 2013-02-17 | 05:07:15 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:54.200 | -05:24:27.00 |    1.38 |          |
+| spm065.fits | 2013-02-17 | 05:12:28 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:54.100 | -05:24:27.00 |    1.39 |          |
+| spm066.fits | 2013-02-17 | 05:22:23 | OIII 60A |       1 |  200000 | 70 micron | 00003 | 00002 | 05:35:54.300 | -05:24:26.00 |    1.43 |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm067.fits | 2013-02-17 | 05:25:27 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:54.400 | -05:24:27.00 |    1.44 | S 8 pix  |
+| spm068.fits | 2013-02-17 | 05:26:39 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:54.300 | -05:24:26.00 |    1.44 |          |
+| spm069.fits | 2013-02-17 | 05:32:12 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:54.500 | -05:24:26.00 |    1.46 |          |
+| spm070.fits | 2013-02-17 | 05:41:38 | OIII 60A |       1 |  200000 | 70 micron | 00003 | 00002 | 05:35:54.400 | -05:24:25.00 |    1.50 |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm071.fits | 2013-02-17 | 05:48:53 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:54.400 | -05:24:25.00 |    1.54 | S 12 pix |
+| spm072.fits | 2013-02-17 | 05:50:00 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:54.200 | -05:24:25.00 |    1.55 |          |
+| spm073.fits | 2013-02-17 | 05:55:19 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:54.300 | -05:24:25.00 |    1.58 |          |
+| spm074.fits | 2013-02-17 | 06:04:52 | OIII 60A |       1 |  200000 | 70 micron | 00003 | 00002 | 05:35:54.400 | -05:24:23.00 |    1.63 |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm075.fits | 2013-02-17 | 06:08:08 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:54.400 | -05:24:24.00 |    1.65 | S 15 pix |
+| spm076.fits | 2013-02-17 | 06:09:37 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:54.400 | -05:24:24.00 |    1.66 |          |
+| spm077.fits | 2013-02-17 | 06:15:04 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:54.400 | -05:24:23.00 |    1.70 |          |
+| spm078.fits | 2013-02-17 | 06:24:31 | OIII 60A |       1 |  200000 | 70 micron | 00003 | 00002 | 05:35:54.600 | -05:24:21.00 |    1.77 |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm079.fits | 2013-02-17 | 06:27:31 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:54.800 | -05:24:22.00 |    1.80 | S 19 pix |
+| spm080.fits | 2013-02-17 | 06:28:58 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:54.800 | -05:24:22.00 |    1.81 |          |
+| spm081.fits | 2013-02-17 | 06:34:19 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:54.900 | -05:24:20.00 |    1.86 |          |
+| spm082.fits | 2013-02-17 | 06:43:44 | OIII 60A |       1 |  200000 | 70 micron | 00003 | 00002 | 05:35:55.200 | -05:24:18.00 |    1.95 |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm083.fits | 2013-02-17 | 06:46:47 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:55.100 | -05:24:18.00 |    1.98 | S 22 pix |
+| spm084.fits | 2013-02-17 | 06:47:51 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:55.200 | -05:24:18.00 |    2.00 |          |
+| spm085.fits | 2013-02-17 | 06:53:05 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:55.400 | -05:24:17.00 |    2.06 |          |
+| spm086.fits | 2013-02-17 | 07:02:35 | OIII 60A |       1 |  200000 | 70 micron | 00003 | 00002 | 05:35:55.400 | -05:24:12.00 |    2.18 |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm087.fits | 2013-02-17 | 07:05:41 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:55.400 | -05:24:12.00 |    2.23 | S 26 pix |
+| spm088.fits | 2013-02-17 | 07:07:31 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:55.700 | -05:24:10.00 |    2.26 |          |
+| spm089.fits | 2013-02-17 | 07:12:48 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:55.800 | -05:24:06.00 |    2.35 |          |
+| spm090.fits | 2013-02-17 | 07:22:14 | OIII 60A |       1 |  200000 | 70 micron | 00003 | 00002 | 05:35:56.200 | -05:23:53.00 |    2.52 |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm091.fits | 2013-02-17 | 07:25:12 | SII 100A |       1 |  100000 | 70 micron | 00003 | 00002 | 05:35:56.500 | -05:23:47.00 |    2.58 | S 29 pix |
+| spm092.fits | 2013-02-17 | 07:26:26 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:56.500 | -05:23:43.00 |    2.61 |          |
+| spm093.fits | 2013-02-17 | 07:31:57 | OIII 60A |       1 |  300000 | 70 micron | 00003 | 00002 | 05:35:57.300 | -05:23:24.00 |    2.73 |          |
+| spm094.fits | 2013-02-17 | 07:41:23 | OIII 60A |       1 |  200000 | 70 micron | 00003 | 00002 | 05:36:01.500 | -05:21:45.00 |    2.98 |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm095.fits | 2013-02-17 | 07:46:34 | SII 100A |       1 |   05000 | Clear     | 00003 | 00002 | 05:36:10.100 | -05:17:57.00 |    3.13 |          |
+| spm096.fits | 2013-02-17 | 07:47:59 | SII 100A |       1 |   05000 | Clear     | 00003 | 00002 | 05:36:14.700 | -05:15:54.00 |    3.18 |          |
+
+
+*** Night 3A: Orion S
+:PROPERTIES:
+:ID:       C5F98384-805C-487D-A745-C6B9BE309927
+:END:
+
+| FILENAME    |   DATE-OBS |       UT | FILTER   | GRATING | EXPTIME | APERTURE  |  CBIN |  RBIN |           RA |          DEC | AIRMASS |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm120.fits | 2013-02-18 | 02:36:39 | SII 100A |       4 |  100000 | 70 micron | 00003 | 00002 | 05:35:57.100 | -05:23:56.00 |    1.27 | S 30 pix |
+| spm121.fits | 2013-02-18 | 02:37:44 | OIII 60A |       4 |  300000 | 70 micron | 00003 | 00002 | 05:35:57.100 | -05:23:56.00 |    1.27 |          |
+| spm122.fits | 2013-02-18 | 02:43:00 | OIII 60A |       4 |  300000 | 70 micron | 00003 | 00002 | 05:35:57.300 | -05:23:56.00 |    1.26 |          |
+| spm123.fits | 2013-02-18 | 02:52:43 | OIII 60A |       4 |  200000 | 70 micron | 00003 | 00002 | 05:35:57.600 | -05:23:56.00 |    1.26 |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm124.fits | 2013-02-18 | 02:55:43 | SII 100A |       4 |  100000 | 70 micron | 00003 | 00002 | 05:35:57.900 | -05:23:58.00 |    1.25 | S 31 pix |
+| spm125.fits | 2013-02-18 | 02:56:55 | OIII 60A |       4 |  300000 | 70 micron | 00003 | 00002 | 05:35:57.900 | -05:23:58.00 |    1.25 |          |
+| spm126.fits | 2013-02-18 | 03:02:21 | OIII 60A |       4 |  300000 | 70 micron | 00003 | 00002 | 05:35:57.900 | -05:23:57.00 |    1.25 |          |
+| spm127.fits | 2013-02-18 | 03:07:43 | OIII 60A |       4 |  300000 | 70 micron | 00003 | 00002 | 05:35:58.000 | -05:23:58.00 |    1.25 |          |
+| spm128.fits | 2013-02-18 | 03:17:17 | OIII 60A |       4 |  200000 | 70 micron | 00003 | 00002 | 05:35:58.100 | -05:23:58.00 |    1.24 |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm129.fits | 2013-02-18 | 03:20:19 | SII 100A |       4 |  100000 | 70 micron | 00003 | 00002 | 05:35:58.300 | -05:23:58.00 |    1.24 | S 34 pix |
+| spm130.fits | 2013-02-18 | 03:21:49 | OIII 60A |       4 |  300000 | 70 micron | 00003 | 00002 | 05:35:58.300 | -05:23:58.00 |    1.24 |          |
+| spm131.fits | 2013-02-18 | 03:27:26 | OIII 60A |       4 |  300000 | 70 micron | 00003 | 00002 | 05:35:58.400 | -05:23:58.00 |    1.24 |          |
+| spm132.fits | 2013-02-18 | 03:37:26 | OIII 60A |       4 |  200000 | 70 micron | 00003 | 00002 | 05:35:58.800 | -05:23:57.00 |    1.25 |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm133.fits | 2013-02-18 | 03:38:53 | SII 100A |       4 |   10000 | Clear     | 00003 | 00002 | 05:35:58.800 | -05:23:53.00 |    1.25 |          |
+| spm135.fits | 2013-02-18 | 03:45:31 | SII 100A |       4 |  100000 | 70 micron | 00003 | 00002 | 05:35:59.100 | -05:23:54.00 |    1.25 | S 25 pix |
+| spm136.fits | 2013-02-18 | 03:47:00 | OIII 60A |       4 |  300000 | 70 micron | 00003 | 00002 | 05:35:59.000 | -05:23:54.00 |    1.25 |          |
+| spm137.fits | 2013-02-18 | 03:52:16 | OIII 60A |       4 |  300000 | 70 micron | 00003 | 00002 | 05:35:59.200 | -05:23:53.00 |    1.25 |          |
+| spm138.fits | 2013-02-18 | 04:01:41 | OIII 60A |       4 |  200000 | 70 micron | 00003 | 00002 | 05:35:59.400 | -05:23:53.00 |    1.26 |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm139.fits | 2013-02-18 | 04:15:47 | SII 100A |       4 |  100000 | 70 micron | 00003 | 00002 | 05:35:59.700 | -05:23:57.00 |    1.28 | S 41 pix |
+| spm140.fits | 2013-02-18 | 04:17:38 | OIII 60A |       4 |  300000 | 70 micron | 00003 | 00002 | 05:35:59.800 | -05:23:57.00 |    1.28 |          |
+| spm141.fits | 2013-02-18 | 04:22:50 | OIII 60A |       4 |  300000 | 70 micron | 00003 | 00002 | 05:35:59.800 | -05:23:57.00 |    1.29 |          |
+| spm142.fits | 2013-02-18 | 04:32:10 | OIII 60A |       4 |  200000 | 70 micron | 00003 | 00002 | 05:35:59.900 | -05:23:56.00 |    1.30 |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+| spm143.fits | 2013-02-18 | 04:35:05 | SII 100A |       4 |  100000 | 70 micron | 00003 | 00002 | 05:35:59.800 | -05:23:58.00 |    1.31 | S 46 pix |
+| spm144.fits | 2013-02-18 | 04:36:14 | OIII 60A |       4 |  300000 | 70 micron | 00003 | 00002 | 05:35:59.800 | -05:23:58.00 |    1.31 |          |
+| spm145.fits | 2013-02-18 | 04:41:26 | OIII 60A |       4 |  300000 | 70 micron | 00003 | 00002 | 05:36:00.000 | -05:23:58.00 |    1.32 |          |
+| spm146.fits | 2013-02-18 | 04:50:46 | OIII 60A |       4 |  200000 | 70 micron | 00003 | 00002 | 05:36:00.100 | -05:23:57.00 |    1.34 |          |
+|-------------+------------+----------+----------+---------+---------+-----------+-------+-------+--------------+--------------+---------+----------|
+
+*** Night 3B: Western Shocks
+
+| FILENAME    |   DATE-OBS |       UT | FILTER | GRATING | EXPTIME | APERTURE   |  CBIN |  RBIN |           RA |          DEC | AIRMASS |
+|-------------+------------+----------+--------+---------+---------+------------+-------+-------+--------------+--------------+---------|
+| spm149.fits | 2013-02-18 | 05:04:23 | Ha 90A |       4 |  100000 | 150 micron | 00003 | 00002 | 05:35:15.700 | -05:25:16.00 |    1.38 |
+| spm150.fits | 2013-02-18 | 05:05:16 | Ha 90A |       4 |  600000 | 150 micron | 00003 | 00002 | 05:35:15.700 | -05:25:16.00 |    1.38 |
+| spm151.fits | 2013-02-18 | 05:15:32 | Ha 90A |       4 |  600000 | 150 micron | 00003 | 00002 | 05:35:15.600 | -05:25:15.00 |    1.42 |
+| spm152.fits | 2013-02-18 | 05:30:00 | Ha 90A |       4 |  200000 | 150 micron | 00003 | 00002 | 05:35:15.800 | -05:25:14.00 |    1.47 |
+|-------------+------------+----------+--------+---------+---------+------------+-------+-------+--------------+--------------+---------|
+| spm154.fits | 2013-02-18 | 05:38:03 | Ha 90A |       5 |  100000 | 150 micron | 00003 | 00002 | 05:35:15.800 | -05:25:08.00 |    1.51 |
+| spm155.fits | 2013-02-18 | 05:38:27 | Ha 90A |       7 |  600000 | 150 micron | 00003 | 00002 | 05:35:15.700 | -05:25:08.00 |    1.51 |
+| spm156.fits | 2013-02-18 | 05:48:39 | Ha 90A |       7 |  600000 | 150 micron | 00003 | 00002 | 05:35:15.700 | -05:25:07.00 |    1.56 |
+| spm157.fits | 2013-02-18 | 06:03:07 | Ha 90A |       7 |  200000 | 150 micron | 00003 | 00002 | 05:35:15.800 | -05:25:05.00 |    1.65 |
+|-------------+------------+----------+--------+---------+---------+------------+-------+-------+--------------+--------------+---------|
+| spm159.fits | 2013-02-18 | 06:08:39 | Ha 90A |       9 |  100000 | 150 micron | 00003 | 00002 | 05:35:16.000 | -05:24:56.00 |    1.69 |
+| spm160.fits | 2013-02-18 | 06:09:20 | Ha 90A |       8 |  600000 | 150 micron | 00003 | 00002 | 05:35:15.900 | -05:24:55.00 |    1.69 |
+| spm161.fits | 2013-02-18 | 06:20:13 | Ha 90A |       8 |  600000 | 150 micron | 00003 | 00002 | 05:35:16.000 | -05:24:54.00 |    1.77 |
+| spm162.fits | 2013-02-18 | 06:34:32 | Ha 90A |       8 |  200000 | 150 micron | 00003 | 00002 | 05:35:16.400 | -05:24:51.00 |    1.90 |
+|-------------+------------+----------+--------+---------+---------+------------+-------+-------+--------------+--------------+---------|
+| spm165.fits | 2013-02-18 | 06:47:19 | Ha 90A |      12 |  100000 | 150 micron | 00003 | 00002 | 05:35:14.400 | -05:26:03.00 |    2.05 |
+| spm166.fits | 2013-02-18 | 06:47:56 | Ha 90A |      13 |  600000 | 150 micron | 00003 | 00002 | 05:35:14.400 | -05:26:03.00 |    2.05 |
+| spm167.fits | 2013-02-18 | 06:58:06 | Ha 90A |      13 |  600000 | 150 micron | 00003 | 00002 | 05:35:14.500 | -05:25:58.00 |    2.19 |
+| spm168.fits | 2013-02-18 | 07:12:23 | Ha 90A |      13 |  200000 | 150 micron | 00003 | 00002 | 05:35:15.100 | -05:25:46.00 |    2.42 |
+|-------------+------------+----------+--------+---------+---------+------------+-------+-------+--------------+--------------+---------|
+| spm169.fits | 2013-02-18 | 07:15:36 | Ha 90A |      13 |  100000 | 150 micron | 00003 | 00002 | 05:35:15.100 | -05:25:32.00 |    2.48 |
+| spm170.fits | 2013-02-18 | 07:16:15 | Ha 90A |      10 |  600000 | 150 micron | 00003 | 00002 | 05:35:15.200 | -05:25:30.00 |    2.49 |
+| spm171.fits | 2013-02-18 | 07:26:27 | Ha 90A |      10 |  600000 | 150 micron | 00003 | 00002 | 05:35:16.100 | -05:24:59.00 |    2.71 |
+| spm172.fits | 2013-02-18 | 07:40:44 | Ha 90A |      10 |  200000 | 150 micron | 00003 | 00002 | 05:35:24.800 | -05:20:38.00 |    3.10 |
+|-------------+------------+----------+--------+---------+---------+------------+-------+-------+--------------+--------------+---------|
+| spm173.fits | 2013-02-18 | 08:18:51 | Ha 90A |      10 |   00000 | 150 micron | 00003 | 00002 | 21:36:32.800 | +31:01:44.00 |    1.00 |
+| spm174.fits | 2013-02-18 | 08:18:57 | Ha 90A |      10 |   00000 | 150 micron | 00003 | 00002 | 21:36:39.200 | +31:01:44.00 |    1.00 |
+| spm175.fits | 2013-02-18 | 08:19:03 | Ha 90A |      10 |   00000 | 150 micron | 00003 | 00002 | 21:36:44.900 | +31:01:44.00 |    1.00 |
+| spm176.fits | 2013-02-18 | 08:19:09 | Ha 90A |      10 |   00000 | 150 micron | 00003 | 00002 | 21:36:51.000 | +31:01:44.00 |    1.00 |
+| spm177.fits | 2013-02-18 | 08:19:16 | Ha 90A |      10 |   00000 | 150 micron | 00003 | 00002 | 21:36:57.000 | +31:01:44.00 |    1.00 |
+| spm178.fits | 2013-02-18 | 08:19:45 | Ha 90A |      10 |   00000 | 150 micron | 00003 | 00002 | 21:37:25.400 | +31:01:44.00 |    1.00 |
+| spm179.fits | 2013-02-18 | 08:19:51 | Ha 90A |      10 |   00000 | 150 micron | 00003 | 00002 | 21:37:31.400 | +31:01:44.00 |    1.00 |
+| spm180.fits | 2013-02-18 | 08:19:57 | Ha 90A |      10 |   00000 | 150 micron | 00003 | 00002 | 21:37:39.500 | +31:01:44.00 |    1.00 |
+| spm181.fits | 2013-02-18 | 08:20:03 | Ha 90A |      10 |   00000 | 150 micron | 00003 | 00002 | 21:37:45.500 | +31:01:44.00 |    1.00 |
+| spm182.fits | 2013-02-18 | 08:20:09 | Ha 90A |      10 |   00000 | 150 micron | 00003 | 00002 | 21:37:51.600 | +31:01:44.00 |    1.00 |
+
+
+*** Night 4: Western Shocks
+
+| FILENAME    |   DATE-OBS |       UT | FILTER | GRATING | EXPTIME | APERTURE   |  CBIN |  RBIN |           RA |          DEC | AIRMASS |
+|-------------+------------+----------+--------+---------+---------+------------+-------+-------+--------------+--------------+---------|
+| spm226.fits | 2013-02-19 | 02:29:16 | Ha 90A |      10 |  100000 | 150 micron | 00003 | 00002 | 05:35:08.400 | -05:25:07.00 |    1.28 |
+| spm227.fits | 2013-02-19 | 02:39:51 | Ha 90A |       9 |  600000 | 150 micron | 00003 | 00002 | 05:35:08.600 | -05:25:07.00 |    1.26 |
+| spm228.fits | 2013-02-19 | 02:39:51 | Ha 90A |       9 |  600000 | 150 micron | 00003 | 00002 | 05:35:08.600 | -05:25:07.00 |    1.26 |
+| spm229.fits | 2013-02-19 | 02:54:16 | Ha 90A |       9 |  200000 | 150 micron | 00003 | 00002 | 05:35:09.200 | -05:25:07.00 |    1.25 |
+|-------------+------------+----------+--------+---------+---------+------------+-------+-------+--------------+--------------+---------|
+| spm232.fits | 2013-02-19 | 02:59:47 | Ha 90A |       9 |  100000 | 150 micron | 00003 | 00002 | 05:35:11.400 | -05:25:17.00 |    1.25 |
+| spm233.fits | 2013-02-19 | 03:01:05 | Ha 90A |       9 |  600000 | 150 micron | 00003 | 00002 | 05:35:11.500 | -05:25:17.00 |    1.25 |
+| spm234.fits | 2013-02-19 | 03:11:20 | Ha 90A |       9 |  600000 | 150 micron | 00003 | 00002 | 05:35:11.500 | -05:25:17.00 |    1.24 |
+| spm235.fits | 2013-02-19 | 03:25:44 | Ha 90A |       9 |  200000 | 150 micron | 00003 | 00002 | 05:35:11.900 | -05:25:17.00 |    1.24 |
+|-------------+------------+----------+--------+---------+---------+------------+-------+-------+--------------+--------------+---------|
+| spm237.fits | 2013-02-19 | 03:31:30 | Ha 90A |      11 |  100000 | 150 micron | 00003 | 00002 | 05:35:12.100 | -05:25:30.00 |    1.25 |
+| spm238.fits | 2013-02-19 | 03:33:21 | Ha 90A |      11 |  600000 | 150 micron | 00003 | 00002 | 05:35:12.200 | -05:25:30.00 |    1.25 |
+| spm239.fits | 2013-02-19 | 03:43:30 | Ha 90A |      11 |  600000 | 150 micron | 00003 | 00002 | 05:35:12.400 | -05:25:29.00 |    1.25 |
+| spm240.fits | 2013-02-19 | 03:57:53 | Ha 90A |      11 |  200000 | 150 micron | 00003 | 00002 | 05:35:12.700 | -05:25:28.00 |    1.26 |
+|-------------+------------+----------+--------+---------+---------+------------+-------+-------+--------------+--------------+---------|
+
+
+
+** Planning the observing run
+*** DONE How long can we observe each night?
+   CLOSED: [2013-02-17 Sun 08:10]
+   :LOGBOOK:
+   - State "TODO"       from ""           [2013-02-07 Thu 11:00]
+   :END:
++ Tere says 5 to 6 hours
++ Bob says 2 hours
++ [X] Which is right?
+  + Looks like 4 hours is closer to the mark
+  + That is, if we start at 5pm
+
+*** DONE Possible projects
+CLOSED: [2013-06-07 Fri 09:15]
+   :LOGBOOK:
+   - State "TODO"       from ""           [2013-02-07 Thu 11:00]
+   :END:
+
+**** Do the horizontal slits in [O III]
+
++ Same positions as the Jan 2007 observations
++ Two 300s [O III] slit exposures for each position
++ One 100s [S II] image+slit exposure for pointing
++ One 200s arc lamp exposure
++ Typical duration of sequence: 21 to 25 minutes
++ Bob did 15 positions
+  + That is about 6 hours altogether
+
+
+
+***** Slit positions
+
+
++ Plate scale for Marconi:
+  + 0.531" @ 3x sampling
+  + => 0.354" @ 2x sampling
+  + Maximum excursion south in Night 1: 29 0.354 = 10.2" 
+
+
+****** List of reference material
++ 2007 observing logs
++ O'Dell & Henney 2008
+  + [[file:~/Work/SPM2013/OrionS/ODH08-fig1.pdf]]
+
+****** Observing log from 2007
+      
+#+BEGIN_SRC sh :dir ~/Work/SPM2007/horizontal_slits
+gethead -th os???.fits DATE-OBS UT FILTER EXPTIME APERTURE RA DEC
+#+END_SRC
+
+| FILENAME   |   DATE-OBS |       UT | FILTER  | EXPTIME | APERTURE   |           RA |          DEC | Comment    | Offset |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os001.fits | 2007-01-11 | 22:38:42 | H alpha |  200000 | 70 microns | 10:08:48.000 | +31:01:44.00 | Lamps      |        |
+| os002.fits | 2007-01-11 | 22:59:00 | [S II]  |  200000 | 70 microns | 10:08:48.000 | +31:01:44.00 |            |        |
+| os003.fits | 2007-01-11 | 23:09:48 | [O III] |  200000 | 70 microns | 10:08:48.000 | +31:01:44.00 |            |        |
+| os004.fits | 2007-01-11 | 23:17:40 |         |  200000 | 70 microns | 10:08:48.000 | +31:01:44.00 |            |        |
+| os005.fits | 2007-01-11 | 23:23:52 | H alpha |  300000 | 70 microns | 10:08:48.000 | +31:01:44.00 |            |        |
+| os006.fits | 2007-01-11 | 23:31:34 | H alpha |  300000 | 70 microns | 10:08:48.000 | +31:01:44.00 |            |        |
+| os007.fits | 2007-01-11 | 23:39:00 | H alpha |  300000 | 70 microns | 10:08:48.000 | +31:01:44.00 |            |        |
+| os008.fits | 2007-01-11 | 23:45:32 | H alpha |   00000 | 70 microns | 10:08:48.000 | +31:01:44.00 |            |        |
+| os009.fits | 2007-01-11 | 23:46:00 | H alpha |   00000 | 70 microns | 10:08:48.000 | +31:01:44.00 |            |        |
+| os010.fits | 2007-01-11 | 23:46:28 | H alpha |   00000 | 70 microns | 10:08:48.000 | +31:01:44.00 |            |        |
+| os011.fits | 2007-01-11 | 23:46:57 | H alpha |   00000 | 70 microns | 10:08:48.000 | +31:01:44.00 |            |        |
+| os012.fits | 2007-01-11 | 23:46:57 | H alpha |   00000 | 70 microns | 10:08:48.000 | +31:01:44.00 |            |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os013.fits | 2007-01-12 | 01:37:35 | H alpha |   01000 | Clear      | 02:59:00.000 | +04:18:33.00 | Pointing   |        |
+| os014.fits | 2007-01-12 | 01:41:30 | H alpha |   01000 | Clear      | 02:59:05.000 | +04:18:33.00 | Pointing   |        |
+| os015.fits | 2007-01-12 | 01:44:32 | H alpha |   01000 | Clear      | 02:59:02.000 | +04:18:33.00 | Pointing   |        |
+| os016.fits | 2007-01-12 | 01:46:06 | H alpha |   01000 | Clear      | 02:59:02.000 | +04:18:33.00 | Pointing   |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os017.fits | 2007-01-12 | 01:50:34 | H alpha |   01000 | Clear      | 03:19:41.000 | +03:24:23.00 | Focus      |        |
+| os018.fits | 2007-01-12 | 01:52:02 | H alpha |   00200 | Clear      | 03:19:42.000 | +03:24:24.00 | Focus      |        |
+| os019.fits | 2007-01-12 | 01:55:29 | H alpha |   01000 | Clear      | 03:28:58.000 | +11:25:25.00 | Focus      |        |
+| os020.fits | 2007-01-12 | 01:57:25 | H alpha |   00500 | Clear      | 03:28:59.000 | +11:25:24.00 | Focus      |        |
+| os021.fits | 2007-01-12 | 01:59:23 | H alpha |   00500 | Clear      | 03:28:59.000 | +11:25:24.00 | Focus      |        |
+| os022.fits | 2007-01-12 | 02:00:54 | H alpha |   00100 | Clear      | 03:28:59.000 | +11:25:24.00 | Focus      |        |
+| os023.fits | 2007-01-12 | 02:02:22 | H alpha |   00100 | Clear      | 03:28:59.000 | +11:25:25.00 | Focus      |        |
+| os024.fits | 2007-01-12 | 02:04:02 | H alpha |   00100 | Clear      | 03:28:59.000 | +11:25:24.00 | Focus      |        |
+| os025.fits | 2007-01-12 | 02:06:09 | H alpha |   00100 | Clear      | 03:28:59.000 | +11:25:24.00 | Focus      |        |
+| os026.fits | 2007-01-12 | 02:07:50 | H alpha |   00100 | Clear      | 03:28:59.000 | +11:25:25.00 | Focus      |        |
+| os027.fits | 2007-01-12 | 02:09:00 | H alpha |   00100 | Clear      | 03:28:59.000 | +11:25:25.00 | Focus      |        |
+| os028.fits | 2007-01-12 | 02:10:07 | H alpha |   00100 | Clear      | 03:28:59.000 | +11:25:25.00 | Focus      |        |
+| os029.fits | 2007-01-12 | 02:11:20 | H alpha |   00100 | Clear      | 03:28:59.000 | +11:25:24.00 | Focus      |        |
+| os030.fits | 2007-01-12 | 02:12:17 | H alpha |   00100 | Clear      | 03:28:59.000 | +11:25:24.00 | Focus      |        |
+| os031.fits | 2007-01-12 | 02:13:23 | H alpha |   00100 | Clear      | 03:28:59.000 | +11:25:24.00 | Focus      |        |
+| os032.fits | 2007-01-12 | 02:14:36 | H alpha |   00100 | Clear      | 03:28:59.000 | +11:25:25.00 | Focus      |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os033.fits | 2007-01-12 | 02:18:22 | H alpha |   00500 | Clear      | 05:35:27.000 | -05:21:50.00 | Aquisition |        |
+| os034.fits | 2007-01-12 | 02:24:52 | H alpha |   05000 | Clear      | 05:35:27.000 | -05:22:16.00 | Aquisition |        |
+| os035.fits | 2007-01-12 | 02:27:30 | [S II]  |   05000 | Clear      | 05:35:27.000 | -05:22:16.00 | Aquisition |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os036.fits | 2007-01-12 | 02:36:59 | [S II]  |  100000 | Clear      | 05:35:28.000 | -05:22:19.00 | Image-slit |        |
+| os037.fits | 2007-01-12 | 02:48:48 | [S II]  |  100000 | Clear      | 05:35:28.000 | -05:22:50.00 | Image-slit | N 1"   |
+| os038.fits | 2007-01-12 | 02:56:02 | H alpha |  300000 | 70 microns | 05:35:29.000 | -05:22:51.00 | Spectrum   |        |
+| os039.fits | 2007-01-12 | 03:01:52 | H alpha |  300000 | 70 microns | 05:35:29.000 | -05:22:52.00 | Spectrum   |        |
+| os040.fits | 2007-01-12 | 03:08:48 | H alpha |  200000 | 70 microns | 05:35:29.000 | -05:22:53.00 | Arc        |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os041.fits | 2007-01-12 | 03:13:19 | H alpha |  100000 | Clear      | 05:35:30.000 | -05:22:55.00 | Image-slit | S 0"   |
+| os042.fits | 2007-01-12 | 03:18:52 | H alpha |  300000 | 70 microns | 05:35:30.000 | -05:22:56.00 | Spectrum   |        |
+| os043.fits | 2007-01-12 | 03:24:34 | H alpha |  300000 | 70 microns | 05:35:30.000 | -05:22:56.00 | Spectrum   |        |
+| os044.fits | 2007-01-12 | 03:30:52 | H alpha |  200000 | 70 microns | 05:35:30.000 | -05:22:58.00 | Arc        |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os045.fits | 2007-01-12 | 03:36:17 | [S II]  |  100000 | Clear      | 05:35:30.000 | -05:22:59.00 | Image-slit | S 1"   |
+| os046.fits | 2007-01-12 | 03:40:46 | H alpha |  300000 | 70 microns | 05:35:31.000 | -05:22:59.00 | Spectrum   |        |
+| os047.fits | 2007-01-12 | 03:46:31 | H alpha |  300000 | 70 microns | 05:35:31.000 | -05:22:59.00 | Spectrum   |        |
+| os048.fits | 2007-01-12 | 03:52:56 | H alpha |  200000 | 70 microns | 05:35:31.000 | -05:23:01.00 | Arc        |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os049.fits | 2007-01-12 | 03:57:37 | [S II]  |   00100 | 70 microns | 05:35:32.000 | -05:23:01.00 | Focus      |        |
+| os050.fits | 2007-01-12 | 03:58:23 | [S II]  |   00100 | Clear      | 05:35:32.000 | -05:23:00.00 | Focus      |        |
+| os051.fits | 2007-01-12 | 04:01:21 | [S II]  |   00100 | Clear      | 05:35:32.000 | -05:23:00.00 | Focus      |        |
+| os052.fits | 2007-01-12 | 04:03:12 | [S II]  |   00100 | Clear      | 05:35:32.000 | -05:23:01.00 | Focus      |        |
+| os053.fits | 2007-01-12 | 04:04:49 | [S II]  |   00100 | Clear      | 05:35:32.000 | -05:23:01.00 | Focus      |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os054.fits | 2007-01-12 | 04:08:14 | [S II]  |  100000 | Clear      | 05:35:32.000 | -05:23:01.00 | Image-slit |        |
+| os055.fits | 2007-01-12 | 04:12:56 | [S II]  |  100000 | Clear      | 05:35:32.000 | -05:23:03.00 | Image-slit | S 2"   |
+| os056.fits | 2007-01-12 | 04:16:40 | H alpha |  300000 | 70 microns | 05:35:32.000 | -05:23:03.00 | Spectrum   |        |
+| os057.fits | 2007-01-12 | 04:22:25 | H alpha |  300000 | 70 microns | 05:35:32.000 | -05:23:03.00 | Spectrum   |        |
+| os058.fits | 2007-01-12 | 04:28:53 | H alpha |  200000 | 70 microns | 05:35:33.000 | -05:23:03.00 | Arc        |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os059.fits | 2007-01-12 | 04:34:27 | [S II]  |  100000 | Clear      | 05:35:33.000 | -05:23:04.00 | Image-slit | S 3"   |
+| os060.fits | 2007-01-12 | 04:38:39 | H alpha |  300000 | 70 microns | 05:35:33.000 | -05:23:05.00 | Spectrum   |        |
+| os061.fits | 2007-01-12 | 04:44:25 | H alpha |  300000 | 70 microns | 05:35:33.000 | -05:23:05.00 | Spectrum   |        |
+| os062.fits | 2007-01-12 | 04:51:43 | H alpha |  200000 | 70 microns | 05:35:33.000 | -05:23:06.00 | Arc        |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os063.fits | 2007-01-12 | 04:56:45 | [S II]  |  100000 | Clear      | 05:35:33.000 | -05:23:07.00 | Image-slit | S 4"   |
+| os064.fits | 2007-01-12 | 05:00:47 | H alpha |  300000 | 70 microns | 05:35:33.000 | -05:23:07.00 | Spectrum   |        |
+| os065.fits | 2007-01-12 | 05:06:45 | H alpha |  300000 | 70 microns | 05:35:33.000 | -05:23:08.00 | Spectrum   |        |
+| os066.fits | 2007-01-12 | 05:13:05 | H alpha |  200000 | 70 microns | 05:35:33.000 | -05:23:07.00 | Arc        |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os067.fits | 2007-01-12 | 05:18:25 | [S II]  |  100000 | Clear      | 05:35:33.000 | -05:23:09.00 | Image-slit | S 5"   |
+| os068.fits | 2007-01-12 | 05:22:36 | H alpha |  300000 | 70 microns | 05:35:33.000 | -05:23:09.00 | Spectrum   |        |
+| os069.fits | 2007-01-12 | 05:28:21 | H alpha |  300000 | 70 microns | 05:35:34.000 | -05:23:09.00 | Spectrum   |        |
+| os070.fits | 2007-01-12 | 05:34:41 | H alpha |  200000 | 70 microns | 05:35:34.000 | -05:23:09.00 | Arc        |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os071.fits | 2007-01-12 | 05:39:47 | [S II]  |  100000 | Clear      | 05:35:34.000 | -05:23:10.00 | Image-slit | S 6"   |
+| os072.fits | 2007-01-12 | 05:44:46 | H alpha |  300000 | 70 microns | 05:35:34.000 | -05:23:09.00 | Spectrum   |        |
+| os073.fits | 2007-01-12 | 05:50:42 | H alpha |  300000 | 70 microns | 05:35:34.000 | -05:23:09.00 | Spectrum   |        |
+| os074.fits | 2007-01-12 | 05:56:55 | H alpha |  200000 | 70 microns | 05:35:34.000 | -05:23:09.00 | Arc        |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os075.fits | 2007-01-12 | 06:02:09 | [S II]  |  100000 | Clear      | 05:35:34.000 | -05:23:10.00 | Image-slit | S 7"   |
+| os076.fits | 2007-01-12 | 06:06:38 | H alpha |  300000 | 70 microns | 05:35:34.000 | -05:23:09.00 | Spectrum   |        |
+| os077.fits | 2007-01-12 | 06:12:39 | H alpha |  300000 | 70 microns | 05:35:34.000 | -05:23:09.00 | Spectrum   |        |
+| os078.fits | 2007-01-12 | 06:18:58 | H alpha |  200000 | 70 microns | 05:35:34.000 | -05:23:09.00 | Arc        |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os079.fits | 2007-01-12 | 06:24:06 | [S II]  |  100000 | Clear      | 05:35:33.000 | -05:23:09.00 | Image-slit | S 8"   |
+| os080.fits | 2007-01-12 | 06:28:24 | H alpha |  300000 | 70 microns | 05:35:34.000 | -05:23:09.00 | Spectrum   |        |
+| os081.fits | 2007-01-12 | 06:34:08 | H alpha |  300000 | 70 microns | 05:35:34.000 | -05:23:09.00 | Spectrum   |        |
+| os082.fits | 2007-01-12 | 06:40:21 | H alpha |  200000 | 70 microns | 05:35:34.000 | -05:23:09.00 | Arc        |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os083.fits | 2007-01-12 | 06:45:21 | [S II]  |  100000 | Clear      | 05:35:34.000 | -05:23:09.00 | Image-slit | S 9"   |
+| os084.fits | 2007-01-12 | 06:50:02 | H alpha |  300000 | 70 microns | 05:35:34.000 | -05:23:09.00 | Spectrum   |        |
+| os085.fits | 2007-01-12 | 06:56:05 | H alpha |  300000 | 70 microns | 05:35:34.000 | -05:23:09.00 | Spectrum   |        |
+| os086.fits | 2007-01-12 | 07:02:21 | H alpha |  200000 | 70 microns | 05:35:34.000 | -05:23:08.00 | Arc        |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os087.fits | 2007-01-12 | 07:07:28 | [S II]  |  100000 | Clear      | 05:35:34.000 | -05:23:09.00 | Image-slit | S 11"  |
+| os088.fits | 2007-01-12 | 07:12:21 | H alpha |  300000 | 70 microns | 05:35:35.000 | -05:23:10.00 | Spectrum   |        |
+| os089.fits | 2007-01-12 | 07:18:05 | H alpha |  300000 | 70 microns | 05:35:35.000 | -05:23:09.00 | Spectrum   |        |
+| os090.fits | 2007-01-12 | 07:24:27 | H alpha |  200000 | 70 microns | 05:35:35.000 | -05:23:09.00 | Arc        |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os091.fits | 2007-01-12 | 07:30:44 | [S II]  |  100000 | Clear      | 05:35:35.000 | -05:22:58.00 | Image-slit | N 0"   |
+| os092.fits | 2007-01-12 | 07:34:56 | [S II]  |  100000 | Clear      | 05:35:35.000 | -05:22:56.00 | Image-slit | N 2"   |
+| os093.fits | 2007-01-12 | 07:39:24 | H alpha |  300000 | 70 microns | 05:35:35.000 | -05:22:56.00 | Spectrum   |        |
+| os094.fits | 2007-01-12 | 07:45:06 | H alpha |  300000 | 70 microns | 05:35:35.000 | -05:22:56.00 | Spectrum   |        |
+| os095.fits | 2007-01-12 | 07:51:21 | H alpha |  200000 | 70 microns | 05:35:35.000 | -05:22:55.00 | Arc        |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os096.fits | 2007-01-12 | 07:56:23 | [S II]  |  100000 | Clear      | 05:35:35.000 | -05:22:56.00 | Image-slit | N 7"   |
+| os097.fits | 2007-01-12 | 08:00:22 | H alpha |  300000 | 70 microns | 05:31:39.000 | -05:22:56.00 | Spectrum   |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os098.fits | 2007-01-12 | 08:07:32 | [S II]  |  100000 | Clear      | 05:35:36.000 | -05:22:55.00 | Image-slit |        |
+| os099.fits | 2007-01-12 | 08:12:14 | [S II]  |  100000 | Clear      | 05:35:36.000 | -05:22:51.00 | Image-slit | N 3"   |
+| os100.fits | 2007-01-12 | 08:16:12 | H alpha |  300000 | 70 microns | 05:35:36.000 | -05:22:50.00 | Spectrum   |        |
+| os101.fits | 2007-01-12 | 08:22:08 | H alpha |  300000 | 70 microns | 05:35:36.000 | -05:22:49.00 | Spectrum   |        |
+| os102.fits | 2007-01-12 | 08:28:33 | H alpha |  200000 | 70 microns | 05:35:36.000 | -05:22:48.00 | Arc        |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os103.fits | 2007-01-12 | 08:33:59 | [S II]  |  100000 | Clear      | 05:35:36.000 | -05:22:46.00 | Image-slit | N 4"   |
+| os104.fits | 2007-01-12 | 08:38:12 | [S II]  |  300000 | 70 microns | 05:35:36.000 | -05:22:46.00 | Spectrum   |        |
+| os105.fits | 2007-01-12 | 08:43:57 | H alpha |  300000 | 70 microns | 05:35:36.000 | -05:22:44.00 | Spectrum   |        |
+| os106.fits | 2007-01-12 | 08:50:04 | H alpha |  200000 | 70 microns | 05:35:36.000 | -05:22:42.00 | Arc        |        |
+| os107.fits | 2007-01-12 | 08:54:38 | [O III] |  300000 | 70 microns | 05:35:36.000 | -05:22:41.00 | Spectrum   |        |
+| os108.fits | 2007-01-12 | 09:00:12 | [O III] |  300000 | 70 microns | 05:35:37.000 | -05:22:40.00 | Spectrum   |        |
+| os109.fits | 2007-01-12 | 09:06:34 | [O III] |  200000 | 70 microns | 05:35:37.000 | -05:22:38.00 | Arc        |        |
+| os110.fits | 2007-01-12 | 09:11:32 | [S II]  |  500000 | 70 microns | 05:35:37.000 | -05:22:37.00 | Spectrum   |        |
+| os111.fits | 2007-01-12 | 09:20:36 | [S II]  |  500000 | 70 microns | 05:35:37.000 | -05:22:34.00 | Spectrum   |        |
+| os112.fits | 2007-01-12 | 09:30:42 | [S II]  |  200000 | 70 microns | 05:35:37.000 | -05:22:31.00 | Arc        |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+| os113.fits | 2007-01-12 | 09:40:52 | H alpha |   01000 | 70 microns | 11:30:36.000 | -03:01:47.00 |            |        |
+| os114.fits | 2007-01-12 | 09:44:08 | H alpha |   01000 | Clear      | 11:30:36.000 | -03:01:48.00 |            |        |
+| os115.fits | 2007-01-12 | 09:49:14 | H alpha |   10000 | Clear      | 11:30:37.000 | -03:01:59.00 |            |        |
+| os116.fits | 2007-01-12 | 09:52:24 | H alpha |  100000 | Clear      | 11:30:37.000 | -03:01:58.00 |            |        |
+| os117.fits | 2007-01-12 | 09:57:11 | H alpha |  100000 | 70 microns | 11:30:37.000 | -03:01:58.00 |            |        |
+|------------+------------+----------+---------+---------+------------+--------------+--------------+------------+--------|
+
+
+**** Look for He II or [Ar IV]
++ Turns out that this is most likely [Fe III] 4703
++ It would be better to look at the [Fe III] 5271 line
+  + But this is still 10x weaker than [S III]
+
+**** Look at the [N II] 5755 auroral line in Orion S
++ This is typically 0.5 times the intensity of [S III]
+
+**** Try to measure the width of C II 6578
++ This is 225 times weaker than
+
+
+**** 30 micron multislit observations of [S II] 
+
+*** Mail messages
+
+**** First message from Tere [2012-11-21 Wed]
+
+: Acabo de pedir tiempo de observación en el 2.1m, de hecho pedí 4 noches,
+: pero me dieron 5, en realidad solo necesito 3, pedí una noche más para
+: poder observar Orión, te acuerdas que necesitabamos unas posiciones
+: horizontales para corregir en velocidad, de la  región del oeste de HH505? 
+: pienso tomar estas posiciones. Pero tenemos tiempo de sobra, quieres
+: que continue con el mapeo en esa posición?
+
+**** Will's first proposal [2012-11-21 Wed]
+
+: Qué bueno escuchar de tí.  Por supuesto que quiero seguir trabajando
+: contigo!   Muchas gracias por la oferta de observar Orión.  De hecho,
+: sí tengo unas observaciones que quisiera hacer con el Mezcal.  Es que
+: hay unas lugares interesantes en Orion S, relacionados con las bases
+: de varios de los flujos grandes HH.  Estoy trabajando en unas imágenes
+: nuevas del WFC3 de Rubin, y hay indicaciones que a la mejor haya
+: emisión de He II 4686 en un par de lugares.  Pero como que nada más
+: tenemos imágenes de filtro, no es obvio cuando es línea y cuando es
+: continuo.  Hasta el momento, nadie ha detectado He II de la Nebulosa
+: de Orión.  Otra posibilidad es que sea [Ar IV] 4711.
+: 
+: Entonces, propongo que intentamos observar la línea 4686 con Mezcal.
+: Sí hay un filtro para esa, ¿verdad?  Podríamos poner la rendija a un
+: PA de 103 grados para que pase por los objetos marcados "HH529
+: counterflow?" y "HH269" en las figuras anexas.
+: 
+: Otra observación que me gustaría hacer, aunque no sé que tan posible
+: sea con Mezcal, es de la línea [N II] 5755.  Es que en esta misma
+: región detectamos algo grande con forma que parece jet con alto valor
+: del cociente 5755/6584, que usualmente se toma como indicador de
+: temperatura (aunque también podría ser alta densidad en lugar de
+: temperatura).
+: 
+: ¿Qué piensas?  ¿Hay filtro que podría aislar [N II] 5755?
+
+**** William Henney <w.henney@crya.unam.mx> 11/21/12
+
+: De acuerdo a esta página,
+: http://www.astrossp.unam.mx/Instruments/filtros/nebgalI.html, sí hay
+: un filtro de 5755.  Estos se puede usar con Mezcal, ¿verdad?   Es
+: cierto, ¿en qué fechas están tus noches de observación?
+
+
+
+**** Teresa García Díaz <tere@astro.unam.mx> 11/21/12
+
+: Efectivamente si tenemos los filtros de HeII 4686 y un filtro angosto 
+: de [NII] 5755, además son redondos de 50 mm de diámetro por lo que sí
+: los podemos usar en el portafiltros del MEZCAL.
+: 
+: Me parece fantástico volver a trabajar contigo. La temporada es
+: del 16 al 20 de febrero en el 2.1 m con el espectrógrafo MEZCAL
+: y el detector Marconi 2.
+: 
+: Sí podemos hacer las observaciones que propones, de hecho
+: tendremos 2 noches unicamente para Orión.
+
+**** Teresa García Díaz <tere@astro.unam.mx> 12/3/12
+
+: Me acaban de confirmar que efectivamente sí tenemos el filtro
+: Nebular Galáctico de la serie I 5755, lo tienen en el armario donde
+: se guardan los filtros, y como es rendondo no debemos de tener problemas
+: en ponerlo con MEZCAL.
+
+**** William Henney <w.henney@crya.unam.mx> 12/4/12
+
+: Muy bien, gracias!   Aunque, ya después de hacer unos cálculos, no
+: estoy seguro de que las observaciones que propuse se pueden hacer bien
+: en una noche, entonces estoy pensando en el Plan B....
+: 
+: Eso sería tomar varias rendijas horizontales en [O III] en la zona de
+: Orion S para complementar las de [N II]+Ha que obtuvimos hace unos
+: años (publicados en Figs 1 y 2 de O'Dell & Henney
+: 2008AJ....136.1566O).   No es tan "novedoso" como intentar observar
+: 5755, pero creo que es más seguro que van a salir algo interesante.
+: 
+: ¿Cómo compara el nuevo CCD con lo que usamos antes?  Tiene pixeles más
+: chicos ¿verdad?
+
+**** Teresa García Díaz <tere@astro.unam.mx>
+
+: Podemos intentar algunas pruebas con ese filtro, además  tenemos dos noches,
+: si no funciona nos vamos al plan B, que opinas?
+: 
+: También me gusta el plan B que parece ir mas a la segura.
+: 
+: Antes usamos el SiTe3 y ahora es el Marconi 2, el SiTe 3 era de 1024X1024 y el tamaño
+: de los pixeles era de 0.24 micras, ahora el Marconi 2 es de 2048X2048 y 0.15 micras, sí
+: tiene pixeles más chicos.
+
+**** William Henney <w.henney@crya.unam.mx> 12/5/12
+
+: Sí, el problema que veo es que tendríamos que decidir entre uno u
+: otro.  Lo de las líneas débiles va a requirir muuucho tiempo de
+: exposición antes de que podemos ver si está funcionando o no.  Pero no
+: tenemos que decidir ahora.
+:  
+: : Antes usamos el SiTe3 y ahora es el Marconi 2, el SiTe 3 era de 1024X1024 y el tamaño
+: : de los pixeles era de 0.24 micras, ahora el Marconi 2 es de 2048X2048 y 0.15 micras, sí
+: : tiene pixeles más chicos.
+: 
+: ¿Y se anota la diferencia?  ¿Ya probaste espectros con rendija de 30 micras?
+
+**** Teresa García Díaz <tere@astro.unam.mx> 12/6/12
+
+: Ahora estoy en SPM, me comentaron que no hay una curva de eficiencia
+: cuantica para el Marconi 2 pero la van a obtener en estos dias. 
+: 
+: También marconi no es tan eficiente en el azul, es menos de lo que era
+: SiTe 3.
+: 
+: Ayer por el sueño te pase mal los datos:
+: 
+: Marconi 2: tamaño 2048X2048, 13.5 micras/pix, Ganacia e-/ADU=2.2, ruido de lectura= 6.1, bias = 867
+: 
+: SiTe 3: tamaño 1024X1024, 24 micras/pix, ganancia=1.25, ruido de lectura=12.4, bias=1071
+: 
+: No he usado la rendija de 30 micras de hecho es una multirendija. Quieres usar 
+: esta?
+
+**** William Henney <w.henney@crya.unam.mx> 12/6/12
+
+: Si hacemos el [O III] entonces multirendija podría estar muy
+: eficiente.  ¿O se van a chocar la 4959 con la 5007? Y una resolución
+: de 3 km/s no estará mal
+
+**** Message from Tere [2013-01-25 Fri]
+: Respecto a las observaciones, tenemos 3 dias (contando la noche de 
+: ingenieria 15--17 febrero) a Orión lo podemos observar durante 5 o 6hrs,
+: cierto?  Anexo una gráfica que muestra la visiblidad de Orión junto con 
+: la distancia a la luna.
+: 
+: De hecho me parece que lo podremos observar a partir de las 7 u 8pm verdad? 
+: (según la gráfica anexa). Para los cheques te parece bien que observemos sólo
+: un par de posiciones E-W?
+: 
+: También me habías comentado sobre observar los objetos HH529 y
+: HH269 con la línea de 4686, estos serían con la rendija de 70 micras o 
+: con 150micras? que has decidido sobre usar la multirendija de alta 
+: resolución? Lo que me comentaron es que se pueden traslapar líneas
+: pero si decides que sí podemos hacer una prueba
+
+**** Message from Bob [2013-01-21 Mon]
+: Feb. 11-15 is getting late for observing Orion from SPM, so only a
+: short time window will be available.  I'm at home and without my usual
+: reference table. Orion transits at true midnight about Dec.9, so this
+: means it is transiting about 8 pm (true time) two months later. I
+: expect that there will only be about two--2.5 hours between the time
+: of being dark enough to start observing and when it gets too low. This
+: won't allow much to be done, but it is an opportunity not to be
+: missed.
+
+
+**** Multislit Message from Tere [2013-02-07 Thu]
+: Tengo pensando tomar solo dos rendijas horizontales con tiempo de integración 
+: de 300s? que opinas? esta bien?
+: 
+: Respecto a multi-rendija tiene como 20 rendijas, me dijo Beto que esta rendija no esta
+: caracterizada. Haciendo una comparación con la rendija de 150 micras que en el 
+: CCD marconi se proyecta en 9 pixeles, entonces con la de 30 micras vamos a estar
+: en el límite de un buen muestreo como con 2 pixeles. Beto no la recomienda pero dice
+: que podemos hacer pruebas.
+
+
+** Supporting material
+*** Finding the old W shock observations                           :noexport:
+This does not really help much. 
+
+#+BEGIN_SRC sh
+  mdfind -onlyin ~ \
+      'kMDItemContentModificationDate <= $time.this_year(-2) 
+       && kMDItemContentModificationDate > $time.this_year(-3)
+       && kMDItemKind == "Flexible Image Transport System"
+       && '
+#+END_SRC
+
+#+RESULTS:
+| /Users/will/Work/garrelt/results-pdr/turb-diss.bck.dir/Frame4/512_2010_4_0009u.fits      |
+| /Users/will/Work/garrelt/results-pdr/turb-diss.bck.dir/Frame2/512_2010_4_0009p.fits      |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/nii-slitA--10.2.fits             |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/nii-slitC--3.4.fits              |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/nii-slitG-+6.0.fits              |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/nii-slitD--0.6.fits              |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/ha-slitE-+1.7.fits               |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/nii-slitE-+1.7.fits              |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/ha-slitF-+3.0.fits               |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/nii-slitF-+3.0.fits              |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/nii-slitH-+8.4.fits              |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/nii-slitK-+13.8.fits             |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/nii-slitJ-+12.9.fits             |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/nii-slitI-+9.2.fits              |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/nii-slitB--2.2.fits              |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/ha-slitB--3.6.fits               |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/ha-slitH-+8.4.fits               |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/ha-slitC--2.2.fits               |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/ha-slitD--0.6.fits               |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/ha-slitG-+6.0.fits               |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_-004+008.wisomom-sum-1.5_gauss.fits      |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+008+020.wisomom-sum-1.5_gauss.fits      |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+020+032.wisomom-sum-1.0_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_-090-070.wisomom-sum-2.5_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_-200-150.wisomom-sum-2.5_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_-130-090.wisomom-sum-3.0_gauss.fits      |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+090+130.wisomom-sum-2.5_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+130+170.wisomom-sum-2.5_gauss_new.fits  |
+| /Users/will/Work/garrelt/results-pdr/512_2010_4_0009x.fits                               |
+| /Users/will/Work/garrelt/results-pdr/512_2010_4_0009w.fits                               |
+| /Users/will/Work/garrelt/results-pdr/512_2010_4_0009v.fits                               |
+| /Users/will/Work/garrelt/results-pdr/512_2010_4_0009u.fits                               |
+| /Users/will/Work/garrelt/results-pdr/512_2010_4_0009t.fits                               |
+| /Users/will/Work/garrelt/results-pdr/512_2010_4_0009p.fits                               |
+| /Users/will/Work/garrelt/results-pdr/512_2010_4_0009d.fits                               |
+| /Users/will/Work/Bowshocks/LLobjects/ProperMotions/sm10921.fits                          |
+| /Users/will/Work/Bowshocks/LLobjects/ProperMotions/sm10246.fits                          |
+| /Users/will/Work/Bowshocks/LLobjects/ProperMotions/sm9825.fits                           |
+| /Users/will/Work/Bowshocks/LLobjects/ProperMotions/sm9460ed.fits                         |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-xn0400.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-xn0300.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-xn0100.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vz0400.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vz0300.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vz0100.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vy0400.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vy0300.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vy0100.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vx0400.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vx0300.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vx0100.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-pp0400.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-pp0300.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-pp0100.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-dd0400.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-dd0300.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bz0400.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bz0300.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bz0100.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-by0400.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-by0300.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-by0100.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bx0400.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bx0300.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bx0100.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-AV0400.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-AV0300.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-AV0100.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-xn0001.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-xi0001.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vz0001.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vy0001.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vx0001.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-pp0001.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-en0001.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-dd0001.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bz0001.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-by0001.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bx0001.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-AV0001.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-xi0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vv0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-va0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-mm0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-en0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-AV0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-xn0200.fits                       |
+| /Users/will/Work/SPM2010/nii_-100-080.wisomom-sum-fake.fits                              |
+| /Users/will/Work/SPM2010/nii_-100-040.wisomom-sum-smooth2d.fits                          |
+| /Users/will/Work/SPM2010/nii_-100-040.wisomom-sum-fake.fits                              |
+| /Users/will/Work/SPM2010/nii_-080-060.wisomom-sum-fake.fits                              |
+| /Users/will/Work/SPM2010/nii_-060-040.wisomom-sum-fake.fits                              |
+| /Users/will/Work/SPM2010/nii_-060+000.wisomom-sum-smooth2d.fits                          |
+| /Users/will/Work/SPM2010/nii_-060+000.wisomom-sum-fake.fits                              |
+| /Users/will/Work/SPM2010/nii_-040-020.wisomom-sum-fake.fits                              |
+| /Users/will/Work/SPM2010/nii_-020+040.wisomom-sum-smooth2d.fits                          |
+| /Users/will/Work/SPM2010/nii_-020+040.wisomom-sum-fake.fits                              |
+| /Users/will/Work/SPM2010/nii_-020+000.wisomom-sum-fake.fits                              |
+| /Users/will/Work/SPM2010/nii_+100+120.wisomom-sum-fake.fits                              |
+| /Users/will/Work/SPM2010/nii_+080+100.wisomom-sum-fake.fits                              |
+| /Users/will/Work/SPM2010/nii_+060+140.wisomom-sum-smooth2d.fits                          |
+| /Users/will/Work/SPM2010/nii_+060+140.wisomom-sum-fake.fits                              |
+| /Users/will/Work/SPM2010/nii_+060+080.wisomom-sum-fake.fits                              |
+| /Users/will/Work/SPM2010/nii_+040+060.wisomom-sum-fake.fits                              |
+| /Users/will/Work/SPM2010/nii_+020+040.wisomom-sum-fake.fits                              |
+| /Users/will/Work/SPM2010/nii_+000+060.wisomom-sum-smooth2d.fits                          |
+| /Users/will/Work/SPM2010/nii_+000+060.wisomom-sum-fake.fits                              |
+| /Users/will/Work/SPM2010/nii_+000+020.wisomom-sum-fake.fits                              |
+| /Users/will/Work/SPM2010/ha_-100-080.wisomom-sum-fake.fits                               |
+| /Users/will/Work/SPM2010/ha_-100-040.wisomom-sum-smooth2d.fits                           |
+| /Users/will/Work/SPM2010/ha_-100-040.wisomom-sum-fake.fits                               |
+| /Users/will/Work/SPM2010/ha_-100+140.wisomom-sum-smooth2d.fits                           |
+| /Users/will/Work/SPM2010/ha_-100+140.wisomom-sum-fake.fits                               |
+| /Users/will/Work/SPM2010/ha_-080-060.wisomom-sum-fake.fits                               |
+| /Users/will/Work/SPM2010/ha_-060-040.wisomom-sum-fake.fits                               |
+| /Users/will/Work/SPM2010/ha_-060+000.wisomom-sum-smooth2d.fits                           |
+| /Users/will/Work/SPM2010/ha_-060+000.wisomom-sum-fake.fits                               |
+| /Users/will/Work/SPM2010/ha_-040-020.wisomom-sum-fake.fits                               |
+| /Users/will/Work/SPM2010/ha_-020+040.wisomom-sum-smooth2d.fits                           |
+| /Users/will/Work/SPM2010/ha_-020+040.wisomom-sum-fake.fits                               |
+| /Users/will/Work/SPM2010/ha_-020+000.wisomom-sum-fake.fits                               |
+| /Users/will/Work/SPM2010/ha_+100+120.wisomom-sum-fake.fits                               |
+| /Users/will/Work/SPM2010/ha_+080+100.wisomom-sum-fake.fits                               |
+| /Users/will/Work/SPM2010/ha_+060+140.wisomom-sum-smooth2d.fits                           |
+| /Users/will/Work/SPM2010/ha_+060+140.wisomom-sum-fake.fits                               |
+| /Users/will/Work/SPM2010/ha_+060+080.wisomom-sum-fake.fits                               |
+| /Users/will/Work/SPM2010/ha_+040+060.wisomom-sum-fake.fits                               |
+| /Users/will/Work/SPM2010/ha_+020+040.wisomom-sum-fake.fits                               |
+| /Users/will/Work/SPM2010/ha_+000+060.wisomom-sum-smooth2d.fits                           |
+| /Users/will/Work/SPM2010/ha_+000+060.wisomom-sum-fake.fits                               |
+| /Users/will/Work/SPM2010/ha_+000+020.wisomom-sum-fake.fits                               |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/test2.fits                             |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/test.fits                              |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitM-+23.8-BGS.fits               |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitM-+23.8-BGN.fits               |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitL-+21.1-BGS.fits               |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitL-+21.1-BGN.fits               |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitK-+14.7-BGS.fits               |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitK-+14.7-BGN.fits               |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitJ-+13.0-BGS.fits               |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitJ-+13.0-BGN.fits               |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitI-+11.5-BGS.fits               |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitI-+11.5-BGN.fits               |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitH-+9.1-BGS.fits                |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitH-+9.1-BGN.fits                |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitG-+6.9-BGS.fits                |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitG-+6.9-BGN.fits                |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitF-+4.8-BGS.fits                |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitF-+4.8-BGN.fits                |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitE-+4.0-BGS.fits                |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitE-+4.0-BGN.fits                |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitD-+2.2-BGS.fits                |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitD-+2.2-BGN.fits                |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitD-+2.2-BG.fits                 |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitC-+1.3-BG.fits                 |
+| /Users/will/Work/SPM2007/Reduced/Mapas/Calibrated/nii-slitB--1.7-BG.fits                 |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_-200-150.wisomom-sum-2.5_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_-150-100.wisomom-sum-2.5_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_-140-080.wisomom-sum-2.5_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_-130-090.wisomom-sum-simple.fits        |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_-130-090.wisomom-sum-3.0_gauss.fits     |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_-130-090.wisomom-sum-2.5_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_-130-090.wisomom-sum-1.5_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_-130-090.wisomom-sum-1.5_gauss.fits     |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_-100-050.wisomom-sum-2.5_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_-090-070.wisomom-sum-2.5_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_-090-050.wisomom-sum-simple.fits        |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_-090-050.wisomom-sum-3.0_gauss.fits     |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_-090-050.wisomom-sum-1.5_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_-090-050.wisomom-sum-1.5_gauss.fits     |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_-070-050.wisomom-sum-2.5_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_-050-020.wisomom-sum-2.5_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_-004+008.wisomom-sum-3.0_gauss.fits     |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_-004+008.wisomom-sum-1.5_gauss.fits     |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_-004+008.wisomom-sum-1.0_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+130+170.wisomom-sum-simple.fits        |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+130+170.wisomom-sum-2.5_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+130+170.wisomom-sum-1.5_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+130+170.wisomom-sum-1.5_gauss.fits     |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+130+160.wisomom-sum-2.5_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+100+150.wisomom-sum-2.5_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+100+140.wisomom-sum-2.5_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+090+170.wisomom-sum-3.0_gauss.fits     |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+090+170.wisomom-sum-1.5_gauss.fits     |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+090+130.wisomom-sum-simple.fits        |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+090+130.wisomom-sum-2.5_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+090+130.wisomom-sum-1.5_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+090+130.wisomom-sum-1.5_gauss.fits     |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+050+100.wisomom-sum-2.5_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+020+032.wisomom-sum-3.0_gauss.fits     |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+020+032.wisomom-sum-1.5_gauss.fits     |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+020+032.wisomom-sum-1.0_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+008+020.wisomom-sum-3.0_gauss.fits     |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+008+020.wisomom-sum-1.5_gauss.fits     |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/nii_+008+020.wisomom-sum-1.0_gauss_new.fits |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_-150-100.wisomom-sum-2.5_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_-140-080.wisomom-sum-2.5_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_-130-090.wisomom-sum-simple.fits         |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_-130-090.wisomom-sum-2.5_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_-130-090.wisomom-sum-1.5_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_-130-090.wisomom-sum-1.5_gauss.fits      |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_-100-050.wisomom-sum-2.5_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_-090-050.wisomom-sum-simple.fits         |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_-090-050.wisomom-sum-3.0_gauss.fits      |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_-090-050.wisomom-sum-1.5_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_-090-050.wisomom-sum-1.5_gauss.fits      |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_-070-050.wisomom-sum-2.5_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_-050-020.wisomom-sum-2.5_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_-004+008.wisomom-sum-3.0_gauss.fits      |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_-004+008.wisomom-sum-1.0_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+130+170.wisomom-sum-simple.fits         |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+130+170.wisomom-sum-1.5_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+130+170.wisomom-sum-1.5_gauss.fits      |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+130+160.wisomom-sum-2.5_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+100+150.wisomom-sum-2.5_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+100+140.wisomom-sum-2.5_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+090+170.wisomom-sum-3.0_gauss.fits      |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+090+170.wisomom-sum-1.5_gauss.fits      |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+090+130.wisomom-sum-simple.fits         |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+090+130.wisomom-sum-1.5_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+090+130.wisomom-sum-1.5_gauss.fits      |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+050+100.wisomom-sum-2.5_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+020+032.wisomom-sum-3.0_gauss.fits      |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+020+032.wisomom-sum-1.5_gauss.fits      |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+008+020.wisomom-sum-3.0_gauss.fits      |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/ha_+008+020.wisomom-sum-1.0_gauss_new.fits  |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/nii-slitP-+48.3.fits             |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/nii-slitO-+44.7.fits             |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/nii-slitN-+35.5.fits             |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/nii-slitM-+27.8.fits             |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/nii-slitL-+21.4.fits             |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/ha-slitP-+48.3.fits              |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/ha-slitO-+44.7.fits              |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/ha-slitN-+35.5.fits              |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/ha-slitM-+27.8.fits              |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/ha-slitL-+21.4.fits              |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/ha-slitK-+13.8.fits              |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/ha-slitJ-+12.9.fits              |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/ha-slitI-+9.2.fits               |
+| /Users/will/Work/SPM2007/Reduced/HH505/slits/Calibrated/ha-slitA--10.2.fits              |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0080x.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0080w.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0080v.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0080u.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0080t.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0080p.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0080d.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0074x.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0074w.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0074v.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0074u.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0074t.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0074p.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0074d.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0060x.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0060w.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0060v.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0060u.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0060t.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0060p.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0060d.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0035x.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0035w.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0035v.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0035u.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0035t.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0035p.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0035d.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0030x.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0030w.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0030v.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0030u.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0030t.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0030p.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0030d.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0023x.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0023w.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0023v.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0023u.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0023t.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0023p.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0023d.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0017x.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0017w.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0017v.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0017u.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0017t.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0017p.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0017d.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0012x.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0012w.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0012v.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0012u.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0012t.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0012p.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0012d.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0010x.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0010w.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0010v.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0010u.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0010p.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0010d.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0008x.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0008w.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0008v.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0008u.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0008p.fits                                 |
+| /Users/will/Work/garrelt/resultsKB/06102007_z_0008d.fits                                 |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-te0400.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-te0390.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-te0389.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-te0388.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-te0387.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-te0386.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-te0385.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-te0384.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-te0383.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-te0382.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-te0381.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-te0380.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-te0379.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-te0378.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-te0377.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-te0376.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-te0375.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-pp0400.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-dd0400.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-dd0390.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Sedov/Bstar-128-enp-dd0380.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-nd0001.fits                          |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-xn0280.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-xi0280.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vz0280.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vz0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vy0280.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vy0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vx0280.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vx0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-vv0280.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-va0280.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-te0370.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-te0280.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-te0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-te0100.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-pp0370.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-pp0280.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-pp0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-mz0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-my0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-mx0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-mm0280.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-en0280.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-e-PAH0000200.fits                 |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-e-neut000200.fits                 |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-e-N265840200.fits                 |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-e-FF06cm0200.fits                 |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-dd0370.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-dd0280.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-dd0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-dd0100.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-colmap-n-rot+350+350-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-colmap-n-rot+350+350-0200.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-colmap-n-rot+215+215-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-colmap-n-rot+080+080-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-colmap-m-rot+350+350-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-colmap-m-rot+350+350-0200.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-colmap-m-rot+215+215-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-colmap-m-rot+080+080-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-colmap-i-rot+350+350-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-colmap-i-rot+350+350-0200.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-colmap-i-rot+215+215-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-colmap-i-rot+080+080-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bz0280.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bz0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-by0280.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-by0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bx0280.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bx0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-z-rot+350+350-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-z-rot+350+350-0200.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-z-rot+215+215-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-z-rot+080+080-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-z--rot+215+215-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-z--rot+090+000-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-z--rot+040+040-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-z--rot+000+000-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-y-rot+350+350-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-y-rot+350+350-0200.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-y-rot+215+215-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-y-rot+080+080-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-y--rot+215+215-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-y--rot+090+000-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-y--rot+040+040-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-y--rot+000+000-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-x-rot+350+350-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-x-rot+350+350-0200.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-x-rot+215+215-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-x-rot+080+080-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-x--rot+215+215-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-x--rot+090+000-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-x--rot+040+040-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-x--rot+000+000-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-V-rot+350+350-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-V-rot+350+350-0200.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-U-rot+350+350-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-n-U-rot+350+350-0200.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-m-z-rot+350+350-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-m-z-rot+350+350-0200.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-m-z-rot+215+215-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-m-z-rot+080+080-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-m-y-rot+350+350-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-m-y-rot+350+350-0200.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-m-y-rot+215+215-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-m-y-rot+080+080-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-m-x-rot+350+350-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-m-x-rot+350+350-0200.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-m-x-rot+215+215-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-m-x-rot+080+080-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-m-V-rot+350+350-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-m-V-rot+350+350-0200.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-m-U-rot+350+350-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-m-U-rot+350+350-0200.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-z-rot+350+350-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-z-rot+350+350-0200.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-z-rot+215+215-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-z-rot+080+080-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-z--rot+215+215-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-z--rot+090+000-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-z--rot+040+040-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-z--rot+000+000-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-y-rot+350+350-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-y-rot+350+350-0200.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-y-rot+215+215-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-y-rot+080+080-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-y--rot+215+215-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-y--rot+090+000-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-y--rot+040+040-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-y--rot+000+000-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-x-rot+350+350-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-x-rot+350+350-0200.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-x-rot+215+215-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-x-rot+080+080-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-x--rot+215+215-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-x--rot+090+000-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-x--rot+040+040-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-x--rot+000+000-0280.fits   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-V-rot+350+350-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-V-rot+350+350-0200.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-U-rot+350+350-0280.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bmap-i-U-rot+350+350-0200.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-be0280.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-be0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bb0370.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bb0280.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-bb0200.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-et-AV0280.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-e-te0194.fits                        |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-e-pp0194.fits                        |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-e-dd0194.fits                        |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Ostar-e-bb0194.fits                        |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/lya-Ostar-et-0280/vel_z.fits               |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/lya-Ostar-et-0280/vel_y.fits               |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/lya-Ostar-et-0280/vel_x.fits               |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/lya-Ostar-et-0280/temperature.fits         |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/lya-Ostar-et-0280/n_hii.fits               |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/lya-Ostar-et-0280/n_hi.fits                |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/lya-Ostar-et-0280/n_h2_x_2.fits            |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/lya-Ostar-et-0280/lya_emissivity.fits      |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/lya-Ostar-et-0280/continuum_intensity.fits |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-p-te0093.fits                        |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-p-nd0043.fits                        |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-HD-enp-te0040.fits                   |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-xn0100.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-xi0134.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-vz0100.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-vy0100.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-vx0100.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-vr0100.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-te0473.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-te0472.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-te0446.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-te0434.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-te0261.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-te0172.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-te0151.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-te0107.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-te0101.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-te0093.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-te0039.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-te0012.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-pp0473.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-pp0472.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-pp0446.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-pp0434.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-pp0261.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-pp0172.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-pp0151.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-pp0134.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-pp0107.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-pp0093.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-pp0039.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-pp0012.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-nd0151.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-nd0107.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-nd0101.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-nd0043.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-nd0012.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-nd0010.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-nd0005.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-nd0001.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-nd0001-CT.fits                    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-e-S267311000.fits                 |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-e-PAH0001000.fits                 |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-e-O350071000.fits                 |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-e-O163001000.fits                 |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-e-neut001000.fits                 |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-e-N265841000.fits                 |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-e-Halpha1000.fits                 |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-e-FF06cm1000.fits                 |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-dd0473.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-dd0472.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-dd0446.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-dd0434.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-dd0292.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-dd0261.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-dd0172.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-dd0151.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-dd0134.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-dd0107.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-dd0101.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-dd0100.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-dd0093.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-dd0039.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-dd0012.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-colmap-n-rot+350+350-1000.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-colmap-m-rot+350+350-1000.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-colmap-i-rot+350+350-1000.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bmap-n-z-rot+350+350-1000.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bmap-n-y-rot+350+350-1000.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bmap-n-x-rot+350+350-1000.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bmap-n-V-rot+350+350-1000.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bmap-n-U-rot+350+350-1000.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bmap-m-z-rot+350+350-1000.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bmap-m-y-rot+350+350-1000.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bmap-m-x-rot+350+350-1000.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bmap-m-V-rot+350+350-1000.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bmap-m-U-rot+350+350-1000.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bmap-i-z-rot+350+350-1000.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bmap-i-y-rot+350+350-1000.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bmap-i-x-rot+350+350-1000.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bmap-i-V-rot+350+350-1000.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bmap-i-U-rot+350+350-1000.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-be0261.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-be0012.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bb0472.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bb0446.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bb0434.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bb0261.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bb0172.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bb0151.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bb0107.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bb0039.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-bb0012.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-AV0101.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-ep-AV0100.fits                       |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-enp-te0240.fits                      |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-enp-te0040.fits                      |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-enp-nd0043.fits                      |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrturb/out/Bstar-enp-dd0240.fits                      |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrkrum/out/B30krum-256-colmap-n-rot+350+350-0234.fits |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrkrum/out/B30krum-256-colmap-m-rot+350+350-0234.fits |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrkrum/out/B30krum-256-colmap-i-rot+350+350-0234.fits |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrkrum/out/B30krum-256-bmap-n-z-rot+350+350-0234.fits |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrkrum/out/B30krum-256-bmap-n-y-rot+350+350-0234.fits |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrkrum/out/B30krum-256-bmap-n-x-rot+350+350-0234.fits |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrkrum/out/B30krum-256-bmap-n-V-rot+350+350-0234.fits |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrkrum/out/B30krum-256-bmap-n-U-rot+350+350-0234.fits |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrkrum/out/B30krum-256-bmap-m-z-rot+350+350-0234.fits |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrkrum/out/B30krum-256-bmap-m-y-rot+350+350-0234.fits |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrkrum/out/B30krum-256-bmap-m-x-rot+350+350-0234.fits |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrkrum/out/B30krum-256-bmap-m-V-rot+350+350-0234.fits |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrkrum/out/B30krum-256-bmap-m-U-rot+350+350-0234.fits |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrkrum/out/B30krum-256-bmap-i-z-rot+350+350-0234.fits |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrkrum/out/B30krum-256-bmap-i-y-rot+350+350-0234.fits |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrkrum/out/B30krum-256-bmap-i-x-rot+350+350-0234.fits |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrkrum/out/B30krum-256-bmap-i-V-rot+350+350-0234.fits |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrkrum/out/B30krum-256-bmap-i-U-rot+350+350-0234.fits |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-colmap-n-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-colmap-n-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-colmap-n-rot+315+045-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-colmap-n-rot+000+000-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-colmap-m-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-colmap-m-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-colmap-m-rot+315+045-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-colmap-m-rot+000+000-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-colmap-i-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-colmap-i-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-colmap-i-rot+315+045-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-colmap-i-rot+000+000-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-z-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-z-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-z-rot+315+045-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-z-rot+000+000-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-y-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-y-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-y-rot+315+045-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-y-rot+000+000-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-x-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-x-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-x-rot+315+045-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-x-rot+000+000-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-V-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-V-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-V-rot+315+045-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-V-rot+000+000-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-U-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-U-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-U-rot+315+045-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-n-U-rot+000+000-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-z-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-z-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-z-rot+315+045-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-z-rot+000+000-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-y-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-y-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-y-rot+315+045-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-y-rot+000+000-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-x-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-x-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-x-rot+315+045-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-x-rot+000+000-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-V-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-V-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-V-rot+315+045-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-V-rot+000+000-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-U-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-U-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-U-rot+315+045-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-m-U-rot+000+000-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-z-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-z-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-z-rot+315+045-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-z-rot+000+000-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-y-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-y-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-y-rot+315+045-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-y-rot+000+000-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-x-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-x-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-x-rot+315+045-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-x-rot+000+000-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-V-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-V-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-V-rot+315+045-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-V-rot+000+000-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-U-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-U-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-U-rot+315+045-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-bmap-i-U-rot+000+000-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/w80-127-be0046.fits                        |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-colmap-n-rot+350+350-0070.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-colmap-n-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-colmap-n-rot+010+040-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-colmap-m-rot+350+350-0070.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-colmap-m-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-colmap-m-rot+010+040-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-colmap-i-rot+350+350-0070.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-colmap-i-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-colmap-i-rot+010+040-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-n-z-rot+350+350-0070.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-n-z-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-n-z-rot+010+040-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-n-y-rot+350+350-0070.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-n-y-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-n-y-rot+010+040-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-n-x-rot+350+350-0070.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-n-x-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-n-x-rot+010+040-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-n-V-rot+350+350-0070.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-n-V-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-n-V-rot+010+040-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-n-U-rot+350+350-0070.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-n-U-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-n-U-rot+010+040-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-m-z-rot+350+350-0070.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-m-z-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-m-z-rot+010+040-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-m-y-rot+350+350-0070.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-m-y-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-m-y-rot+010+040-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-m-x-rot+350+350-0070.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-m-x-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-m-x-rot+010+040-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-m-V-rot+350+350-0070.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-m-V-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-m-V-rot+010+040-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-m-U-rot+350+350-0070.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-m-U-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-m-U-rot+010+040-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-i-z-rot+350+350-0070.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-i-z-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-i-z-rot+010+040-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-i-y-rot+350+350-0070.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-i-y-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-i-y-rot+010+040-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-i-x-rot+350+350-0070.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-i-x-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-i-x-rot+010+040-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-i-V-rot+350+350-0070.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-i-V-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-i-V-rot+010+040-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-i-U-rot+350+350-0070.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-i-U-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-255-bmap-i-U-rot+010+040-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-vv0050.fits                        |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-va0050.fits                        |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-te0050.fits                        |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-mm0050.fits                        |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-colmap-n-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-colmap-m-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-colmap-i-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-bmap-n-z-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-bmap-n-y-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-bmap-n-x-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-bmap-n-V-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-bmap-n-U-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-bmap-m-z-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-bmap-m-y-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-bmap-m-x-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-bmap-m-V-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-bmap-m-U-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-bmap-i-z-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-bmap-i-y-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-bmap-i-x-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-bmap-i-V-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-bmap-i-U-rot+350+350-0050.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-be0050.fits                        |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s80-127-bb0050.fits                        |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-colmap-n-rot+350+350-0150.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-colmap-n-rot+350+350-0120.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-colmap-n-rot+350+350-0080.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-colmap-m-rot+350+350-0150.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-colmap-m-rot+350+350-0120.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-colmap-m-rot+350+350-0080.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-colmap-i-rot+350+350-0150.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-colmap-i-rot+350+350-0120.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-colmap-i-rot+350+350-0080.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-n-z-rot+350+350-0150.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-n-z-rot+350+350-0120.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-n-z-rot+350+350-0080.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-n-y-rot+350+350-0150.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-n-y-rot+350+350-0120.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-n-y-rot+350+350-0080.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-n-x-rot+350+350-0150.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-n-x-rot+350+350-0120.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-n-x-rot+350+350-0080.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-n-V-rot+350+350-0150.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-n-V-rot+350+350-0120.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-n-V-rot+350+350-0080.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-n-U-rot+350+350-0150.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-n-U-rot+350+350-0120.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-n-U-rot+350+350-0080.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-m-z-rot+350+350-0150.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-m-z-rot+350+350-0120.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-m-z-rot+350+350-0080.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-m-y-rot+350+350-0150.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-m-y-rot+350+350-0120.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-m-y-rot+350+350-0080.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-m-x-rot+350+350-0150.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-m-x-rot+350+350-0120.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-m-x-rot+350+350-0080.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-m-V-rot+350+350-0150.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-m-V-rot+350+350-0120.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-m-V-rot+350+350-0080.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-m-U-rot+350+350-0150.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-m-U-rot+350+350-0120.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-m-U-rot+350+350-0080.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-i-z-rot+350+350-0150.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-i-z-rot+350+350-0120.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-i-z-rot+350+350-0080.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-i-y-rot+350+350-0150.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-i-y-rot+350+350-0120.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-i-y-rot+350+350-0080.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-i-x-rot+350+350-0150.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-i-x-rot+350+350-0120.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-i-x-rot+350+350-0080.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-i-V-rot+350+350-0150.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-i-V-rot+350+350-0120.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-i-V-rot+350+350-0080.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-i-U-rot+350+350-0150.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-i-U-rot+350+350-0120.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s45-127m-bmap-i-U-rot+350+350-0080.fits    |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-colmap-n-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-colmap-n-rot+350+350-0080.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-colmap-n-rot+350+350-0060.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-colmap-m-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-colmap-m-rot+350+350-0080.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-colmap-m-rot+350+350-0060.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-colmap-i-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-colmap-i-rot+350+350-0080.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-colmap-i-rot+350+350-0060.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-n-z-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-n-z-rot+350+350-0080.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-n-z-rot+350+350-0060.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-n-y-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-n-y-rot+350+350-0080.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-n-y-rot+350+350-0060.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-n-x-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-n-x-rot+350+350-0080.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-n-x-rot+350+350-0060.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-n-V-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-n-V-rot+350+350-0080.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-n-V-rot+350+350-0060.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-n-U-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-n-U-rot+350+350-0080.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-n-U-rot+350+350-0060.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-m-z-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-m-z-rot+350+350-0080.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-m-z-rot+350+350-0060.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-m-y-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-m-y-rot+350+350-0080.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-m-y-rot+350+350-0060.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-m-x-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-m-x-rot+350+350-0080.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-m-x-rot+350+350-0060.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-m-V-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-m-V-rot+350+350-0080.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-m-V-rot+350+350-0060.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-m-U-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-m-U-rot+350+350-0080.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-m-U-rot+350+350-0060.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-i-z-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-i-z-rot+350+350-0080.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-i-z-rot+350+350-0060.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-i-y-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-i-y-rot+350+350-0080.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-i-y-rot+350+350-0060.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-i-x-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-i-x-rot+350+350-0080.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-i-x-rot+350+350-0060.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-i-V-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-i-V-rot+350+350-0080.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-i-V-rot+350+350-0060.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-i-U-rot+350+350-0100.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-i-U-rot+350+350-0080.fits     |
+| /Users/will/Work/Fabio/C2Ray/runs/pdrglob/out/s00-127-bmap-i-U-rot+350+350-0060.fits     |
+| /Users/will/Work/Bowshocks/LLobjects/StarVelocities/IXOri/IXOri-12-02-2009.fits          |
+| /Users/will/Work/Bowshocks/LLobjects/StarVelocities/IXOri/IXOri-10-28-2007.fits          |
+| /Users/will/Work/Bowshocks/LLobjects/StarVelocities/IXOri/IXOri-10-27-2007.fits          |
+| /Users/will/Work/Bowshocks/LLobjects/StarVelocities/IXOri/IXOri-10-20-2008.fits          |
+| /Users/will/Work/Bowshocks/LLobjects/StarVelocities/IXOri/IXOri-10-18-2008.fits          |
+| /Users/will/Work/Bowshocks/LLobjects/StarVelocities/IXOri/IXOri-03-27-2008.fits          |
+| /Users/will/Work/Bowshocks/LLobjects/StarVelocities/IXOri/IXOri-01-21-2007.fits          |
+
+
+
+
+
