@@ -568,17 +568,22 @@ xpaset -p ds9 scale limits 0 26
     + deg(-5@ 23' 22.96) = -5.38971111111 deg
     + Plate scale = 0.534 arcsec = 1.48333333333e-4 deg
 
-#+BEGIN_SRC python
+#+BEGIN_SRC python :results output
   import astropy.io.fits as fits
-  hdu, = fits.open("/Users/will/Work/BobKPNO/2004/vcube.oiii.fits")
-  hdu.header.update(CD1_1=-1.48333333333e-4, CRVAL1=83.8185, CRPIX1=187.0, CTYPE1="RA---TAN",
-                    CD2_2=1.48333333333e-4, CRPIX2=314.0, CRVAL2=-5.38971111111, CTYPE2="DEC--TAN")
-  hdu.writeto("DOH-oiii-cube.fits", clobber=True)
-
+  km = 1.0
+  for line in "oiii", "nii", "ha": 
+      hdu, = fits.open("/Users/will/Work/BobKPNO/2004/vcube.{}.fits".format(line))
+      hdu.header.update(CD1_1=-1.48333333333e-4, CRVAL1=83.8185, CRPIX1=187.0, CTYPE1="RA---TAN",
+                        CD2_2=1.48333333333e-4, CRPIX2=314.0, CRVAL2=-5.38971111111, CTYPE2="DEC--TAN",
+                        CD3_3=4.0*km, CRPIX3=31, CRVAL3=18.0*km, CTYPE3="VOPT", CUNIT3="km/s")
+      hdu.writeto("DOH-{}-cube.fits".format(line), clobber=True)
+  
 #+END_SRC
 
 #+RESULTS:
-: None
+: WARNING: Overwriting existing file 'DOH-oiii-cube.fits'. [astropy.io.fits.hdu.hdulist]
+: WARNING: Overwriting existing file 'DOH-nii-cube.fits'. [astropy.io.fits.hdu.hdulist]
+: WARNING: Overwriting existing file 'DOH-ha-cube.fits'. [astropy.io.fits.hdu.hdulist]
 
 
 #+BEGIN_SRC sh :results silent
@@ -613,15 +618,16 @@ xpaset -p ds9 scale minmax
   correct = {"088": 0.9, "084": 0.9}
   nx, ny, nv = 625, len(specids), 300
   cube = np.empty((ny, nv, nx))
+  km = 1.0
   for j, specid in enumerate(specids):
       hdu, = fits.open("spec{}-oiii-nc.fits".format(specid))
       cube[j, :, :] = hdu.data
       if specid in correct:
           cube[j, :, :] /= correct[specid]
   hdr = fits.Header()
-  hdr.update(CD1_1=1.45833333333e-4, CRVAL1=83.8164166667, CRPIX1=289.0, CTYPE1="RA---TAN",
+  hdr.update(CD1_1=-1.45833333333e-4, CRVAL1=83.8164166667, CRPIX1=289.0, CTYPE1="RA---TAN",
              CD3_3=3.80555555556e-4, CRPIX3=12.0, CRVAL3=-5.39723333333, CTYPE3="DEC--TAN",
-             CD2_2=2.0, CRPIX2=1.0, CRVAL2=-314.4, CTYPE2="LINEAR")
+             CD2_2=2.0*km, CRPIX2=1.0, CRVAL2=-314.4*km, CTYPE2="VOPT", CUNIT2="km/s")
   fits.PrimaryHDU(cube[::-1, :, ::-1], hdr).writeto("spm-vstack-oiii.fits", clobber=True)
 #+END_SRC
 
@@ -635,23 +641,121 @@ xpaset -p ds9 fits spm-vstack-oiii.fits
 xpaset -p ds9 scale minmax
 #+END_SRC
 
+
+****** And the same but with RA, Dec offsets from th1C in arcsec
+83.8185958334, -5.38977222222
+
+#+BEGIN_SRC python :results output
+import numpy as np
+import astropy.io.fits as fits
+hdu, = fits.open("spm-vstack-oiii.fits")
+# coords of th1C
+ra0, dec0 = 83.818596, -5.3897722
+
+hdu.header["CRVAL1"] -= ra0
+hdu.header["CRVAL1"] *= 3600.0
+hdu.header["CTYPE1"] = "LINEAR"
+hdu.header["CUNIT1"] = "arcsec"
+hdu.header["CD1_1"] *= -3600.0
+
+hdu.header["CRVAL3"] -= dec0
+hdu.header["CRVAL3"] *= 3600.0
+hdu.header["CTYPE3"] = "LINEAR"
+hdu.header["CUNIT3"] = "arcsec"
+hdu.header["CD3_3"] *= 3600.0
+
+hdu.header["CTYPE2"] = "LINEAR"
+
+hdu.writeto("spm-vstack-oiii-arcsec.fits", clobber=True)
+#+END_SRC
+
+#+RESULTS:
+: WARNING: Overwriting existing file 'spm-vstack-oiii-arcsec.fits'. [astropy.io.fits.hdu.hdulist]
+
+
+
+
+#+BEGIN_SRC sh
+xpaset -p ds9 fits $PWD/spm-vstack-oiii-arcsec.fits
+#+END_SRC
+
 ***** Copy files to webserver for Bob
 #+name: bob-files
 + ../orion-s-notes.html
 + spm-vstack-oiii.fits
++ spm-vstack-oiii
 + rough-cube.fits
 + rough-map.fits
 + cont-map.fits
 + SPM_Orion_S_velocity_cube.png
++ DOH-oiii-cube.fits
++ DOH-ha-cube.fits
++ DOH-nii-cube.fits
 #+BEGIN_SRC sh :var FILES=bob-files :results verbatim
 pwd
 for f in $FILES; do
-    rsync -aqzP $f crya:/http/pub/will/OrionSouth
+    rsync -azP $f crya:/http/pub/will/OrionSouth
 done
 #+END_SRC
 
 #+RESULTS:
-: /Users/will/Dropbox/SPMFEB13/OrionS
+#+begin_example
+/Users/will/Dropbox/SPMFEB13/OrionS
+building file list ... 
+ 0 files...1 file to consider
+
+sent 88 bytes  received 20 bytes  12.71 bytes/sec
+total size is 57237  speedup is 529.97
+building file list ... 
+ 0 files...1 file to consider
+spm-vstack-oiii.fits
+        9472   0%    0.00kB/s    0:00:00    22504320 100%   90.90MB/s    0:00:00 (xfer#1, to-check=0/1)
+
+sent 1582 bytes  received 28554 bytes  6696.89 bytes/sec
+total size is 22504320  speedup is 746.76
+building file list ... 
+ 0 files...1 file to consider
+spm-vstack-oiii-arcsec.fits
+       32768   0%    0.00kB/s    0:00:00     3964928  17%    3.62MB/s    0:00:05     4194304  18%    1.93MB/s    0:00:09     4358144  19%    1.34MB/s    0:00:13     4554752  20% 1009.83kB/s    0:00:17     4784128  21%  170.61kB/s    0:01:43     5046272  22%  164.17kB/s    0:01:46     5308416  23%  175.79kB/s    0:01:37     5537792  24%  181.65kB/s    0:01:33     5767168  25%  176.83kB/s    0:01:34     6029312  26%  177.06kB/s    0:01:33     6291456  27%  175.60kB/s    0:01:32     6553600  29%  167.94kB/s    0:01:34     6750208  29%  167.42kB/s    0:01:34     7012352  31%  165.49kB/s    0:01:33     7274496  32%  168.84kB/s    0:01:30     7503872  33%  176.86kB/s    0:01:24     7733248  34%  182.75kB/s    0:01:20     7929856  35%  175.86kB/s    0:01:22     8159232  36%  164.57kB/s    0:01:27     8388608  37%  164.82kB/s    0:01:25     8617984  38%  158.65kB/s    0:01:27     8847360  39%  171.45kB/s    0:01:19     9076736  40%  169.54kB/s    0:01:19     9338880  41%  169.28kB/s    0:01:17     9601024  42%  164.58kB/s    0:01:18     9797632  43%  146.74kB/s    0:01:26    10059776  44%  154.14kB/s    0:01:20    10321920  45%  158.55kB/s    0:01:16    10584064  47%  175.31kB/s    0:01:07    10813440  48%  189.60kB/s    0:01:01    11042816  49%  170.39kB/s    0:01:07    11304960  50%  167.74kB/s    0:01:06    11534336  51%  165.10kB/s    0:01:06    11796480  52%  170.97kB/s    0:01:02    12025856  53%  182.54kB/s    0:00:57    12255232  54%  179.74kB/s    0:00:57    12517376  55%  179.41kB/s    0:00:55    12779520  56%  172.97kB/s    0:00:56    13008896  57%  176.18kB/s    0:00:53    13238272  58%  158.02kB/s    0:00:58    13500416  59%  152.04kB/s    0:00:59    13762560  61%  127.46kB/s    0:01:08    13959168  62%  119.30kB/s    0:01:11    14221312  63%  132.84kB/s    0:01:02    14483456  64%  131.76kB/s    0:01:00    14745600  65%  162.03kB/s    0:00:47    14942208  66%  163.15kB/s    0:00:46    15204352  67%  165.83kB/s    0:00:44    15466496  68%  171.06kB/s    0:00:41    15728640  69%  173.79kB/s    0:00:38    15990784  71%  191.90kB/s    0:00:33    16187392  71%  156.71kB/s    0:00:40    16449536  73%  161.34kB/s    0:00:37    16711680  74%  159.79kB/s    0:00:36    16973824  75%  156.68kB/s    0:00:35    17170432  76%  178.74kB/s    0:00:29    17432576  77%  177.81kB/s    0:00:28    17694720  78%  180.32kB/s    0:00:26    17924096  79%  176.56kB/s    0:00:25    18153472  80%  182.20kB/s    0:00:23    18415616  81%  183.31kB/s    0:00:22    18644992  82%  176.06kB/s    0:00:21    18907136  84%  180.89kB/s    0:00:19    19169280  85%  179.84kB/s    0:00:18    19365888  86%  175.59kB/s    0:00:17    19628032  87%  180.69kB/s    0:00:15    19890176  88%  178.31kB/s    0:00:14    20152320  89%  188.53kB/s    0:00:12    20348928  90%  175.63kB/s    0:00:12    20611072  91%  177.65kB/s    0:00:10    20873216  92%  180.01kB/s    0:00:09    21102592  93%  160.08kB/s    0:00:08    21331968  94%  169.52kB/s    0:00:06    21594112  95%  166.99kB/s    0:00:05    21856256  97%  164.16kB/s    0:00:03    22085632  98%  175.02kB/s    0:00:02    22347776  99%  180.07kB/s    0:00:00    22504320 100%  203.93kB/s    0:01:47 (xfer#1, to-check=0/1)
+
+sent 12092726 bytes  received 42 bytes  92664.89 bytes/sec
+total size is 22504320  speedup is 1.86
+building file list ... 
+ 0 files...1 file to consider
+
+sent 85 bytes  received 20 bytes  70.00 bytes/sec
+total size is 11255040  speedup is 107190.86
+building file list ... 
+ 0 files...1 file to consider
+
+sent 84 bytes  received 20 bytes  69.33 bytes/sec
+total size is 80640  speedup is 775.38
+building file list ... 
+ 0 files...1 file to consider
+
+sent 83 bytes  received 20 bytes  68.67 bytes/sec
+total size is 80640  speedup is 782.91
+building file list ... 
+ 0 files...1 file to consider
+
+sent 99 bytes  received 20 bytes  238.00 bytes/sec
+total size is 343181  speedup is 2883.87
+building file list ... 
+ 0 files...1 file to consider
+
+sent 88 bytes  received 20 bytes  216.00 bytes/sec
+total size is 44654400  speedup is 413466.67
+building file list ... 
+ 0 files...1 file to consider
+
+sent 86 bytes  received 20 bytes  70.67 bytes/sec
+total size is 44654400  speedup is 421267.92
+building file list ... 
+ 0 files...1 file to consider
+
+sent 87 bytes  received 20 bytes  71.33 bytes/sec
+total size is 44654400  speedup is 417330.84
+#+end_example
 
 **** Western Shocks
 
